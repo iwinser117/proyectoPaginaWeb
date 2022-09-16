@@ -17,6 +17,9 @@
     justify-content:space-around;
     align-items: center;
 }
+.img-res {
+    display: none;
+}
 .title {
     min-height: 480px;
     width: 50%;
@@ -41,11 +44,17 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.logotitle img {
+.perfil-title {
+    display: none;
+}
+.perfil {
     width: 250px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(179, 179, 179),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);;
+    border-radius: 45%;
+    -webkit-border-radius: 45%;
+    -moz-border-radius: 45%;
+    -ms-border-radius: 45%;
+    -o-border-radius: 45%;
 }
