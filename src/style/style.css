@@ -17,9 +17,7 @@
     justify-content:space-around;
     align-items: center;
 }
-.img-res {
-    display: none;
-}
+
 .title {
     min-height: 480px;
     width: 50%;
@@ -44,9 +42,7 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.perfil-title {
-    display: none;
-}
+
 .perfil {
     width: 250px;
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),

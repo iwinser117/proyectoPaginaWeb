@@ -1,46 +1,18 @@
 @media only screen and (max-width: 715px){
-    .logotitle img{
-            display: none;
-            
-        }
-        .title .active {
-            display: block;
-        }
-        .perfil {
-            display: none;
-        }
-    .header {
-            min-height: 480px;
-            margin: auto;
-            flex-direction: column-reverse;
-            /* height: 100vh; */
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-        
-        
-    .img-res img {
-        width: 250px;
-            box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-                0 0 0 2px rgb(179, 179, 179),
-                0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-            ;
-            border-radius: 45%;
-            -webkit-border-radius: 45%;
-            -moz-border-radius: 45%;
-            -ms-border-radius: 45%;
-            -o-border-radius: 45%;
+    .header .logotitle{
+        display: none;
     }
-    
     .title {
         min-height: 480px;
-        width: 90%;
-        display: flex;
+        width: 100%;
+        display: inline;
         flex-direction: column;
         text-align: center;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
     }
-    
+    .title p {
+        font-size: 1.3em;
+        width: 100%;
+    }
 }
