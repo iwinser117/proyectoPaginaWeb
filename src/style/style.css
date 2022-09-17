@@ -57,3 +57,68 @@
 .inactive {
     display: none;
 }
+
+
+
+
+/* estilos al nav */
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    /* padding: 10px 20px; */
+    min-height: 40px;
+}
+.nav .list {
+    align-self: center;
+    width: 60%;
+}
+.nav .list .nav-list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-self: center;
+}
+.logo-nav{
+    display: none;
+    justify-content: flex-end;
+}
+li{
+    display: flex;
+    background: rgb(20, 126, 10);
+    height: 60px;
+    margin: auto;
+    width: 100%;
+
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-self: center;
+}
+.nav .name {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    align-self: center;
+    color: rgb(12, 12, 12);
+    box-shadow: inset 3em 3em 3em rgba(58, 73, 141, 0.1), 0 0 0 0px rgb(0, 0,0,0.1),0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 90%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    opacity: 0.6;
+    
+}
+.nav-link {
+    display: block;
+    height: 100%;
+    background: rgb(13, 55, 172);
+
+}
