@@ -6,7 +6,7 @@
     width: 90%;
     display: flexbox;
     flex-direction: column;
-    background: rgb(228, 228, 228);
+    background: rgb(243, 241, 241);
     margin: auto;
 }
 .header {
@@ -53,4 +53,7 @@
     -moz-border-radius: 45%;
     -ms-border-radius: 45%;
     -o-border-radius: 45%;
+}
+.inactive {
+    display: none;
 }
