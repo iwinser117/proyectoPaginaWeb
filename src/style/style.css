@@ -81,17 +81,19 @@
     text-align: center;
     /* padding: 10px 20px; */
     min-height: 40px;
+    background: rgb(179, 179, 179);
 }
 .nav .list {
     display: block;
     align-self: center;
-    width: 90%;
+    width: 60%;
+    
 }
 .nav .list .nav-list {
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     align-self: center;
 }
@@ -139,6 +141,7 @@ li a:hover{
     -ms-border-radius: 30%;
     -o-border-radius: 30%;
     opacity: 0.6;
+    margin-right: 20px;
     
 }
 
