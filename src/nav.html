@@ -11,16 +11,21 @@
 <body>
     <div class="container">
         <nav>
-            <div class="nav">
-                <div class="list">
+            <div class="nav" >
+                <div class="list" id="list" >
+                    <div class="li">
                     <ul class="nav-list">
                     <li><a href="#sobremi" class="nav-link1">About me</a></li>
                     <li><a href="#habilidaes" class="nav-link">Skills</a></li>
                     <li><a href="#proyectos" class="nav-link">Projects</a></li>
                     <li><a href="#contacto" class="nav-link">Contact</a></li>
                     </ul>
+                    </div>
                 </div>
-                <div class="logo-nav">
+                <div class="logo-nav" id="logo-nav" onclick="ver()" onmousemove="ver()">
+                    <img src="./images/nav-logo.png" width="30px" alt="">
+                </div>
+                <div class="logo-closed" id="logoyes" onclick="ocultar()" onmouseout="ocultar()">
                     <img src="./images/nav-logo.png" width="30px" alt="">
                 </div>
                 <div class="name">
@@ -29,5 +34,6 @@
             </div>
         </nav>
     </div>
+    <script src="./js/ht.js"></script>
 </body>
 </html>
