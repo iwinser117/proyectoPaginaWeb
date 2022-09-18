@@ -1,0 +1,51 @@
+    /* aplicando cambios al nav desde 768 hasta 576 */
+    @media only screen and (max-width: 576px) {
+        .nav .list {
+            display: none;
+        }
+        .nav #list{
+            display: none;}
+        nav .nav {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            text-align: center;
+        }
+
+        .nav .logoNav:hover {
+            cursor: pointer;
+            background: rgb(173, 173, 173);
+
+        }
+
+        .nav .name {
+            margin-right: 12px;
+        }
+
+        .nav .list {
+            display: none;
+            position: absolute;
+            top: 40px;
+            background: rgb(209, 209, 209);
+        }
+
+        .nav-list {
+            display: none;
+            width: 100%;
+            flex-direction: column;
+        }
+        .nav .logoClosed {
+            display: flex;
+            align-items: flex-start;
+            margin-left: 10px;
+            padding: 4px 10px;
+            align-self: center;
+        }
+
+        .nav .logoNav {
+            display: flex;
+            align-items: flex-start;
+            margin-left: 10px;
+            padding: 4px 10px;
+        }
+    }

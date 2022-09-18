@@ -15,13 +15,13 @@ c.append(j); */
 //creando la interaccion del nav
 
 function ver() {
-    document.getElementById('list').style.display = "block"
-    document.getElementById('logoyes').style.display="flex";
-    document.getElementById('logo-nav').style.display = "none";
+    document.getElementById('list').style.display = "block" ;
+    document.getElementsByClassName('logoNav').style.display="flex";
+    document.getElementsByClassName('logoNav').style.display = "none";
 
 }
 function ocultar() {
     document.getElementById('list').style.display = "none"
-    document.getElementById('logoyes').style.display = "none";
-    document.getElementById('logo-nav').style.display = "flex";
+    document.getElementsByClassName('logoClosed').style.display = "none";
+    document.getElementsByClassName('logoNav').style.display = "flex";
 }

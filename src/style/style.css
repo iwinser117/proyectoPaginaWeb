@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
 }
+
 .container {
     width: 90%;
     display: flexbox;
@@ -61,6 +62,9 @@
     -moz-border-radius: 45%;
     -ms-border-radius: 45%;
     -o-border-radius: 45%;
+}
+.active {
+    display: flex;
 }
 .inactive {
     display: none;
@@ -138,16 +142,4 @@ li a:hover{
     
 }
 
-.logo-closed {
-    display: flex;
-    align-items: flex-start;
-    margin-left: 10px;
-    padding: 4px 10px;
-}
 
-.logo-nav {
-    display: flex;
-    align-items: flex-start;
-    margin-left: 10px;
-    padding: 4px 10px;
-}
