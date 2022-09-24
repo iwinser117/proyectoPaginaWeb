@@ -72,7 +72,10 @@
 }
 
 
-
+i{
+    width:30px;
+    height: 35px;
+}
 
 /* estilos al nav */
 .nav {
