@@ -25,3 +25,4 @@ function ocultar() {
     document.getElementsByClassName('logoClosed').style.display = "none";
     document.getElementsByClassName('logoNav').style.display = "flex";
 }
+
