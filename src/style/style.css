@@ -42,8 +42,9 @@
 }
 .title p {
     font-size: 1.3em;
-    width: 60%;
+    width: 70%;
     line-height: 120%;
+    padding: 14px;
 }
 .logotitle {
     width: 30%;
@@ -153,7 +154,7 @@ li a:hover{
 .centrArt{
     width: 70%;
     margin: auto;
-    height: 400px;
+    min-height: 400px;
     padding: 0px 4px;
 }
 .centrArt h2 {
@@ -172,6 +173,12 @@ li a:hover{
 
 
 /* estilos del footer */
+.t-foot {
+    display: none;
+}
+#min-foot {
+    display: none;
+}
 footer {
     height: 200px;
     width: 100%;
@@ -317,124 +324,3 @@ footer {
 
 
 
-
-@media only screen and (max-width: 768px) {
-    .header {
-        display: flex;
-
-    }
-
-    .header .logotitle {
-        display: none;
-    }
-
-    .title {
-        min-width: 100%;
-    }
-
-    .title p {
-        font-size: 1.3em;
-        width: 100%;
-    }
-
-    .title .inactive {
-        display: flex;
-        width: 150px;
-    }
-
-    .title .inactive img {
-        width: 180px;
-    }
-    .centrArt {
-        width: 90%;
-        margin: auto;
-        padding: 0px 4px;
-    }
-    .centrArt p {
-        text-align: justify;
-        font-size: 1.2em;
-        line-height: 130%;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-    .nav .list {
-        display: none;
-    }
-
-    .nav #list {
-        display: none;
-    }
-
-    nav .nav {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        text-align: center;
-    }
-
-    .nav .logoNav:hover {
-        cursor: pointer;
-        background: rgb(173, 173, 173);
-
-    }
-
-    .nav .name {
-        margin-right: 12px;
-    }
-
-    .nav .list {
-        display: none;
-        position: absolute;
-        top: 40px;
-        background: rgb(209, 209, 209);
-    }
-
-    .nav-list {
-        display: none;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .nav .logoClosed {
-        display: flex;
-        align-items: flex-start;
-        margin-left: 10px;
-        padding: 4px 10px;
-        align-self: center;
-    }
-
-    .nav .logoNav {
-        display: flex;
-        align-items: flex-start;
-        margin-left: 10px;
-        padding: 4px 10px;
-    }
-
-    .header {
-        display: flex;
-
-    }
-
-    .header .logotitle {
-        display: none;
-    }
-
-    .title {
-        min-width: 100%;
-    }
-
-    .title p {
-        font-size: 1.3em;
-        width: 100%;
-    }
-
-    .title .inactive {
-        display: flex;
-        width: 150px;
-    }
-
-    .title .inactive img {
-        width: 180px;
-    }
-}

@@ -1,0 +1,117 @@
+
+
+@media only screen and (max-width: 576px) {
+    .nav .list {
+        display: none;
+    }
+
+    .nav #list {
+        display: none;
+    }
+
+    nav .nav {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .nav .logoNav:hover {
+        cursor: pointer;
+        background: rgb(173, 173, 173);
+
+    }
+
+    .nav .name {
+        margin-right: 12px;
+    }
+
+    .nav .list {
+        display: none;
+        position: absolute;
+        top: 40px;
+        background: rgb(209, 209, 209);
+    }
+
+    .nav-list {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav .logoClosed {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 10px;
+        padding: 4px 10px;
+        align-self: center;
+    }
+
+    .nav .logoNav {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 10px;
+        padding: 4px 10px;
+    }
+
+    .header {
+        display: flex;
+
+    }
+
+    .header .logotitle {
+        display: none;
+    }
+
+    .title {
+        min-width: 100%;
+    }
+
+    .title p {
+        font-size: 1.3em;
+        width: 100%;
+    }
+
+    .title .inactive {
+        display: flex;
+        width: 150px;
+    }
+
+    .title .inactive img {
+        width: 180px;
+    }
+    #inacfotter {
+        display:none;
+    }
+    #name-footer .idea {
+        display: none;
+    }
+    #redes.info-footer {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 30%;
+        height: 90%;
+    }
+    .t-foot {
+        display: block;
+    }
+    #min-foot {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 30%;
+        height: 90%;
+        justify-content: space-evenly;
+        text-align: center;
+        color:black;
+    }
+    #min-foot a {
+        color:black;
+    }
+    #min-foot .gmail a:hover {
+        color:rgba(0, 20, 73, 0.973);
+    }
+    #min-foot .whatsapp a:hover {
+        color:rgb(0, 48, 0);
+    }
+}
