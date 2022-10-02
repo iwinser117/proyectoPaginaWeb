@@ -306,6 +306,8 @@ footer {
     width: 70%;
     height: auto;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
     overflow: hidden;
 }
 .cont-img .slider {
