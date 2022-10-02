@@ -301,6 +301,40 @@ footer {
 
 
 
+/* estilos y animacion para el slider */
+.cont-img {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+.cont-img .slider {
+    display:flex;
+    width: calc(200px * 10);
+    animation: scroll 20s linear infinite;
+    -webkit-animation: scroll 20s linear infinite;
+}
+
+.img-slider {
+    width: 300px;
+}
+.img-slider img {
+    width: 100%;
+}
+
+@keyframes scroll{
+    0% {
+        -webkit-transform:translateX(0);
+        transform:translateX(0);
+    }
+    100%{
+        -webkit-transform:translateX(calc(-200px * 5));
+        transform:translateX(calc(-200px * 5));
+        -moz-transform:translateX(calc(-200px * 5));
+        -ms-transform:translateX(calc(-200px * 5));
+        -o-transform:translateX(calc(-200px * 5));
+}
+}
 
 
 
