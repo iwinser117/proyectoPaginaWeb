@@ -48,32 +48,29 @@
                     <input type="number" class="form-control" placeholder="escribe operando B" id="operandoB">
                 </div>
                 <button class="btn btn-danger mb-4  type="reset" value="Borrar">Borrar</button>
-            </form>
+        </form>
 
-            <div class="btn-fcn" >
+    <div class="btn-fcn" >
+        <button class="btn btn-primary mb-3" onclick="sumar()">Sumar</button>
 
-                <button class="btn btn-primary mb-3" onclick="sumar()">Sumar</button>
-                <button class="btn btn-primary mb-3" onclick="restar()">Restar</button>
-                <button class="btn btn-primary mb-3" onclick="multiplicar()">Multiplicar</button>
-                <button class="btn btn-primary mb-3" onclick="dividir()">Dividir</button>
-                
-            </div>
+        <button class="btn btn-primary mb-3" onclick="restar()">Restar</button>
+        
+        <button class="btn btn-primary mb-3" onclick="multiplicar()">Multiplicar</button>
     
-    
-                <div id="resultado"></div>
-                <div id="resultadoResta"></div>
-                <div id="resultadoMultiplicar"></div>
-                <div id="resultadoDivision"></div>
-    
-    
-            </div>
-        </section>
+        <button class="btn btn-primary mb-3" onclick="dividir()">Dividir</button>
 
-
-
+        
     </div>
-
-
-    <script src="./calculadora/js/app.js"></script>
+    
+    
+    <div id="resultado"></div>
+    <div id="resultadoResta"></div>
+    <div id="resultadoMultiplicar"></div>
+    <div id="resultadoDivision"></div>
+    
+    
+    </div>
+        </section>
+    </div>
 </body>
 </html>

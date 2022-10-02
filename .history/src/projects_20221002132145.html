@@ -38,42 +38,39 @@
         <section>
             <h1 class="display-3s">Calculadora Basica</h1>
     
-            <form id="forma">
-                <div class="mb-3">
-                    <label for="operandoA">OperandoA</label>
-                    <input type="number"  class="form-control" id="operandoA" placeholder="escribe operando A">
-                </div>
-                <div class="mb-3">
-                    <label for="operandoB">Operando B</label>
-                    <input type="number" class="form-control" placeholder="escribe operando B" id="operandoB">
-                </div>
-                <button class="btn btn-danger mb-4  type="reset" value="Borrar">Borrar</button>
-            </form>
-
-            <div class="btn-fcn" >
-
-                <button class="btn btn-primary mb-3" onclick="sumar()">Sumar</button>
-                <button class="btn btn-primary mb-3" onclick="restar()">Restar</button>
-                <button class="btn btn-primary mb-3" onclick="multiplicar()">Multiplicar</button>
-                <button class="btn btn-primary mb-3" onclick="dividir()">Dividir</button>
-                
+        <form id="forma">
+            <div class="mb-3">
+                <label for="operandoA">OperandoA</label>
+                <input type="number"  class="form-control" id="operandoA" placeholder="escribe operando A">
             </div>
-    
-    
-                <div id="resultado"></div>
-                <div id="resultadoResta"></div>
-                <div id="resultadoMultiplicar"></div>
-                <div id="resultadoDivision"></div>
-    
-    
+            <div class="mb-3">
+                <label for="operandoB">Operando B</label>
+                <input type="number" class="form-control" placeholder="escribe operando B" id="operandoB">
             </div>
-        </section>
+            <button class="btn btn-danger mb-4  type="reset" value="Borrar">Borrar</button>
+    </form>
 
+    <div class="btn-fcn" >
+        <button class="btn btn-primary mb-3" onclick="sumar()">Sumar</button>
 
+        <button class="btn btn-primary mb-3" onclick="restar()">Restar</button>
+        
+        <button class="btn btn-primary mb-3" onclick="multiplicar()">Multiplicar</button>
+    
+        <button class="btn btn-primary mb-3" onclick="dividir()">Dividir</button>
 
+        
     </div>
-
-
-    <script src="./calculadora/js/app.js"></script>
+    
+    
+    <div id="resultado"></div>
+    <div id="resultadoResta"></div>
+    <div id="resultadoMultiplicar"></div>
+    <div id="resultadoDivision"></div>
+    
+    
+    </div>
+        </section>
+    </div>
 </body>
 </html>
