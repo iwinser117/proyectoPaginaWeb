@@ -37,3 +37,4 @@ function dividir(){
     document.getElementById(`resultadoDivision`).innerHTML = `resultado de la division es : ${resultadoDivision}`;
     console.log(`resultado de la division es : ${resultadoDivision}`);
 }
+
