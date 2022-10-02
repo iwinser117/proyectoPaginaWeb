@@ -89,7 +89,7 @@
     background: rgb(107, 106, 106);
 }
 .projNav {
-    justify-content: start;
+    justify-content: ;
 }
 .nav .list {
     display: block;
@@ -101,7 +101,7 @@
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     align-self: center;
 }

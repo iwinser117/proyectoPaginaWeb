@@ -78,7 +78,7 @@
 
 
 /* estilos al nav */
-
+.nav-projec
 .nav {
     display: flex;
     flex-direction: row;
@@ -87,9 +87,6 @@
     /* padding: 10px 20px; */
     min-height: 40px;
     background: rgb(107, 106, 106);
-}
-.projNav {
-    justify-content: start;
 }
 .nav .list {
     display: block;

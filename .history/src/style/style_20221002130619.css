@@ -88,9 +88,7 @@
     min-height: 40px;
     background: rgb(107, 106, 106);
 }
-.projNav {
-    justify-content: start;
-}
+
 .nav .list {
     display: block;
     align-self: center;

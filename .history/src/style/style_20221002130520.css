@@ -78,8 +78,7 @@
 
 
 /* estilos al nav */
-
-.nav {
+.nav-project {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -88,8 +87,14 @@
     min-height: 40px;
     background: rgb(107, 106, 106);
 }
-.projNav {
-    justify-content: start;
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    /* padding: 10px 20px; */
+    min-height: 40px;
+    background: rgb(107, 106, 106);
 }
 .nav .list {
     display: block;

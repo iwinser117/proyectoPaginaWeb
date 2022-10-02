@@ -89,7 +89,7 @@
     background: rgb(107, 106, 106);
 }
 .projNav {
-    justify-content: start;
+    justify-content: s;
 }
 .nav .list {
     display: block;
