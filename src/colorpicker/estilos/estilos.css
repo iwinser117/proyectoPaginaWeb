@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Roboto+Mono:wght@200&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Beau Rivage',
+    cursive;
+    font-family: 'Roboto Mono',
+    monospace;
+}
+h2 {
+    text-align: center;
+}
+.salida {
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    width: 30%;
+    height: 7rem;
+    margin: 1.5rem auto;
+    border: 1px solid #000;
+}
+.color-div{
+    text-align: center;
+}
