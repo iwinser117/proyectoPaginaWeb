@@ -1,0 +1,30 @@
+.skill {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    /* en display ccambia de 70 a 90 */
+    width: 70%;
+    margin: auto;
+    min-height: 400px;
+    padding: 0px 4px;
+}
+
+
+.skill h2 {
+    font-size: 2em;
+    padding: 10px 0px;
+}
+.skill h3 {
+    font-size: 1.6em;
+    padding: 10px 0px;
+}
+.skill p {
+    text-align: justify;
+    font-size: 1.3em;
+    line-height: 170%;
+}
+
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}

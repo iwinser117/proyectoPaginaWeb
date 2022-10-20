@@ -23,8 +23,8 @@ font-family: 'Source Sans Pro', sans-serif;*/
     margin: auto;
 }
 .header {
-    
-    min-height: 480px;
+    height: 100vh;
+    /* min-height: 480px; */
     margin: auto;
     /* height: 100vh; */
     display: flex;
@@ -173,7 +173,7 @@ li a:hover{
 }
 .centrArt p {
     text-align: justify;
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 170%;
 }
 
@@ -195,16 +195,17 @@ footer {
     background: rgb(158, 158, 155);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .footer {
     height: 200px;
-    width: 80%;
+    width: 90%;
+    margin: auto;
     background: rgb(158, 158, 155);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
