@@ -142,19 +142,10 @@ li a:hover{
     align-items: center;
 }
 .nav .name {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.2em;
     align-self: center;
     color: rgb(12, 12, 12);
-    box-shadow: inset 3em 3em 3em rgba(58, 73, 141, 0.1), 0 0 0 0px rgb(0, 0,0,0.1),0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-    border-radius: 30%;
-    -webkit-border-radius: 30%;
-    -moz-border-radius: 90%;
-    -ms-border-radius: 30%;
-    -o-border-radius: 30%;
-    opacity: 0.6;
     margin-right: 20px;
-    
+    display: flex;
 }
 
 
@@ -347,27 +338,6 @@ footer {
         -o-transform:translateX(calc(-200px * 5));
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
