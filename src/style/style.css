@@ -19,7 +19,7 @@ font-family: 'Source Sans Pro', sans-serif;*/
     width: 90%;
     display: flexbox;
     flex-direction: column;
-    background: rgb(243, 241, 241);
+    /* background: rgb(243, 241, 241); */
     margin: auto;
 }
 .header {
@@ -112,7 +112,7 @@ font-family: 'Source Sans Pro', sans-serif;*/
     display: none;
     justify-content: flex-end;
 }
-li{
+nav li{
     display: flex;
     height: 60px;
     margin: auto;
@@ -132,8 +132,9 @@ li a:hover{
 .nav a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 1.3em;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: 600;
     margin: auto;
     width: 100%;
     height: 100%;
@@ -169,8 +170,10 @@ li a:hover{
 }
 
 
-
-
+/* certificados iconos */
+.certificados-iconos li i{
+    color:rgb(122, 111, 9);
+}
 
 
 /* estilos del footer */
