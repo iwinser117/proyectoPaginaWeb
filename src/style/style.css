@@ -171,7 +171,10 @@ li a:hover{
 
 
 /* certificados iconos */
-
+.certificados-iconos li {
+    margin-left:2em;
+    list-style:circle;
+}
 .fa-graduation-cap {
     color:rgb(122, 111, 9);
 }
@@ -193,7 +196,7 @@ footer {
     height: 150px;
     width: 100%;
     margin: auto;
-    background: rgb(158, 158, 155);
+    background: rgba(109, 156, 226, 0.575);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -203,6 +206,10 @@ footer {
 .footer .info-footer {
     display: flex;
     flex-direction: column;
+    /* align-content: space-between; */
+}
+.info-footer .con-foo {
+    height: 20px;
 }
 .info-footer .infoo {
     width: auto;
@@ -224,15 +231,11 @@ footer {
     font-weight: 100;
     opacity: 0.8;
     font-family:'Comforter Brush', cursive;
-    /* font-family: 'Comforter Brush', cursive;
-font-family: 'EB Garamond', serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Nova Mono', monospace;
-font-family: 'Source Sans Pro', sans-serif;*/
 }
 .info-footer .enlaces {
     display: flex;
     flex-direction: row;
+    margin-top: 12px;
 }
 .int-footer {
     text-align: right;
