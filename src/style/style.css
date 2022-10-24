@@ -91,7 +91,7 @@ font-family: 'Source Sans Pro', sans-serif;*/
     text-align: center;
     /* padding: 10px 20px; */
     min-height: 40px;
-    background: rgb(107, 106, 106);
+    background:  rgba(109, 156, 226, 0.575);
 }
 
 .nav .list {
@@ -131,7 +131,7 @@ li a:hover{
 }
 .nav a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(1, 53, 1);
     font-size: 1.4em;
     font-family:'Source Sans Pro', sans-serif;
     font-weight: 600;
@@ -191,12 +191,13 @@ li a:hover{
 footer {
     display: flex;
     flex-direction: column;
+    background:rgba(109, 156, 226, 0.575); 
 }
 .footer {
     height: 150px;
     width: 100%;
     margin: auto;
-    background: rgba(109, 156, 226, 0.575);
+   /*  background: rgba(109, 156, 226, 0.575); */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -259,8 +260,6 @@ footer {
     flex-direction: row;
     width:100%;
     align-items: center;
-    background:  rgb(158, 158, 155);
-    
 }
 #intfoo {
     display: flex;
