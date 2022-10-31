@@ -91,7 +91,7 @@ font-family: 'Source Sans Pro', sans-serif;*/
     text-align: center;
     /* padding: 10px 20px; */
     min-height: 40px;
-    background:  rgba(109, 156, 226, 0.575);
+    background:  rgba(109, 156, 226, 0.301);
 }
 
 .nav .list {
@@ -120,7 +120,7 @@ nav li{
     justify-content: center;  
 }
 li a:hover{
-    background: rgb(226, 226, 226);
+    background: rgba(109, 156, 226, 0.301);
     /* cursor: pointer; */
     transition: 1s;
     -webkit-transition: 1s;
@@ -272,11 +272,12 @@ footer {
     transition: 0.5s;
 } 
 .linkedin a:hover{
-    color:rgb(0, 37, 201);
+    color:rgb(10, 102, 194) ;
     transition: 0.5s;
 } 
 .facebook a:hover{
-    color:rgb(13, 16, 184);
+    
+    color:rgb(24, 119, 242);
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -284,7 +285,7 @@ footer {
     -o-transition: 0.5s;
 }
 .descarga a:hover{
-    color:rgb(231, 12, 12);
+    color:red;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
