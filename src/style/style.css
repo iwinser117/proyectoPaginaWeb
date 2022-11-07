@@ -59,6 +59,12 @@ font-family: 'Source Sans Pro', sans-serif;*/
     align-items: center;
     justify-content: space-evenly;
 }
+#imgl {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    
+}
 
 .perfil {
     width: 250px;
@@ -91,7 +97,7 @@ font-family: 'Source Sans Pro', sans-serif;*/
     text-align: center;
     /* padding: 10px 20px; */
     min-height: 40px;
-    background:  rgba(109, 156, 226, 0.301);
+    /* background:  rgba(109, 156, 226, 0.301); */
 }
 
 .nav .list {
@@ -120,7 +126,7 @@ nav li{
     justify-content: center;  
 }
 li a:hover{
-    background: rgba(109, 156, 226, 0.301);
+    /* background: rgba(109, 156, 226, 0.301); */
     /* cursor: pointer; */
     transition: 1s;
     -webkit-transition: 1s;
@@ -157,7 +163,7 @@ li a:hover{
     width: 70%;
     margin: auto;
     min-height: 400px;
-    padding: 0px 4px;
+    padding:  6em 0em;
 }
 .centrArt h2 {
     font-size: 2em;
@@ -171,6 +177,12 @@ li a:hover{
 
 
 /* certificados iconos */
+.certificados {
+    padding-top: 2em;
+}
+.certificados p {
+    padding-top: 0.6em;
+}
 .certificados-iconos li {
     margin-left:2em;
     list-style:circle;
