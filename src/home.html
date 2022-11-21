@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style/res7.css">
     <link rel="stylesheet" href="./style/minmedia.css">
     <link rel="stylesheet" href="./style/skill.css">
+    <link rel="stylesheet" href="./style/formulario.css">
     <script src="https://kit.fontawesome.com/1e68ffedd1.js" crossorigin="anonymous"></script>
     <!-- tipografia -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=EB+Garamond:wght@400;500&family=Lato:wght@300&family=Nova+Mono&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     
     <title>Iwinser Sanchez</title>
+    <link rel="shortcut icon" href="./images/ok.ico" type="image/x-icon">
 </head>
 <body>
     <div class="container">
@@ -25,10 +27,10 @@
                 <div class="list active" id="list">
                     <div class="li">
                         <ul class="nav-list">
-                            <li><a href="#about" class="nav-link1">About me</a></li>
-                            <li><a href="#habilidades" class="nav-link">Skills</a></li>
-                            <li><a href="projects.html" class="nav-link">Projects</a></li>
-                            <li><a href="#contacto" class="nav-link">Contact</a></li>
+                            <li><a href="#about" class="nav-link1">Acerca de mi</a></li>
+                            <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                            <li><a href="projects.html" class="nav-link">Proyectos</a></li>
+                            <li><a href="#contacto" class="nav-link">Contactame</a></li>
                             <div class="logoClosed inactive" onclick="ocultar()">
                                 <img src="./images/cerrar.png" width="20px" alt="">
                             </div>
@@ -47,14 +49,14 @@
             <header>
                 <div class="header">
                     <div class="title">
-                        <h1>Hi, I'm Iwinser Sanchez</h1>
+                        <div class="title-principal">
+                        <h1>Hola, soy Iwinser Sanchez</h1>
+                        <h3>Desarrollador Fullstack / Javascript</h3>
+                        </div>
                         <div class="logotitle inactive">
                             <img src="images/perfil.jpg"  alt="foto de perfil" class="perfil">
                         </div>
-                        <p>Hello, I am currently learning Javascript and Java. also application development focused on the
-                        backend and everything
-                        related to data structures....
-                        take a look</p>
+                        <p></p>
                     </div>
                     <div class="logotitle active">
                         <img src="images/perfil.jpg"  alt="foto de perfil" class="perfil"> 
@@ -63,47 +65,25 @@
             </header>
         </nav>
 
-        
-
-
-        
-
-
-
-
-        
+  
         <!-- creando la section de about -->
 
         <article id="about">
 
             <div class="centrArt">
-                <h2>About me</h2>
+                <h2>Acerca de mi</h2>
                 <p>
-                    hola, gracias por visitarme. Soy desarrollador de software y he aprendido lenguajes de programación como Javascript, Python y Java. con fundamentos en HTML y CSS que es con lo que está hecho este portafolio; soy una persona con ganas de aprender cada día enfocado en las tareas asignadas. Me gusta programar y quiero trabajar en lo que me apasiona.
+                    hola, gracias por visitarme. Soy desarrollador de software y he aprendido lenguajes de programación como Javascript, Python y Java. con fundamentos en HTML y CSS que es con lo que está hecho este portafolio; soy una persona con ganas de aprender cada día enfocado en las tareas asignadas. Apasionado por programar.
                 </p>
                 <p>
-                    Soy autodidacta, considero que aprendo rápido, me gusta escuchar música electrónica, comer y disfruto conduciendo una moto. También tengo habilidades como el trabajo en equipo y el liderazgo, me gustaría trabajar en proyectos que tengan un gran impacto en la sociedad y que beneficien a muchas personas. Tengo 27 años y vivo en Bogotá Colombia
+                    Soy autodidacta, considero que aprendo rápido, habilidades como el trabajo en equipo y el liderazgo, me gustaría trabajar en proyectos que tengan un gran impacto en la sociedad y que beneficien a muchas personas.
                 </p>
-                <!-- <p>
-                    hello, thanks for visiting me. I am a software developer and I have learned programming
-                    languages such as <strong>Javascript</strong>, <strong>Python</strong> and
-                    <strong>Java</strong>. with foundations in <Strong>HTML</Strong> and <Strong>CSS</Strong> which
-                    is what this portfolio is made with; I am a person willing to learn every day focused on the
-                    assigned tasks. I like to program and I want to work on what I
-                    am passionate about.
-                </p>
-                <p>
-                    I am self-taught, I consider that I learn quickly,I like to listen to electronic music, eat and enjoy driving a
-                    motorcycle.
-                    I also have skills such as teamwork and leadership, I would like to work on projects that have a great impact on
-                    society
-                    and that benefit many people. I am 27 years old and I live in Bogota Colombia.
-                </p> -->
+                
                 <br>
                 <div class="certificados text-info">
                     <h3><i class="fa-solid fa-graduation-cap"></i>Certificaciones</h3>
-                    <p>Durante mi proceso de aprendizaje he logrado certificarme por medio de la Facultad de ingenieria de la Universidad de Antioquia y cursos y/o rutas en la plataforma de estudio online Platzi los cuales he culminado ha satisfaccion.</p>
-                   
+                    <p>Durante mi proceso de aprendizaje he logrado certificarme por medio de la Facultad de ingenieria de la Universidad de Antioquia mediante el programa Mision TIC 2022 y cursos en la plataforma de estudio online Platzi los cuales he culminado ha satisfaccion.</p>
+                    
                     <div class="certificados-iconos">
                         <ul>
                             <li><p>Diplomado en Desarrollo de Software <pre>MisionTic2022</pre> </p></li>
@@ -129,7 +109,7 @@
                     <div class="img-slider">
                         <img src="./images/javascript.svg" alt="">
                     </div>
-    
+
                     <div class="img-slider">
                         <img src="./images/html5.svg" alt="">
                     </div>
@@ -149,7 +129,7 @@
                     <div class="img-slider">
                         <img src="./images/javascript.svg" alt="">
                     </div>
-    
+
                     <div class="img-slider">
                         <img src="./images/html5.svg" alt="">
                     </div>
@@ -165,7 +145,7 @@
                     <div class="img-slider">
                         <img src="./images/java.png"  alt="">
                     </div>
-    
+
                 </div>
             </div>
         </section>
@@ -176,34 +156,60 @@
             <article  >
                 <div class="text-info">
                     
-                        <h3><b>Front-end Developer</b></h3>
-                        <p>
-                            uso <strong>html</strong>, <strong>css</strong> y <strong>javascript</strong> para el desarrollo de este sitio web, se de html; sobre su estructura semantica con el fin de realizar sitios web accesibles y que sean llamativos para el usuario, tambien doy estilos a mis proyectos actualmente con css, considero que tengo un conocimiento intermedio, me gusta todo lo que se puede hacer con el como por ejemplo sus animaciones  y que puedo dar adaptablidad a las aplicaciones. tambien el lenguaje <i>javascript</i> me parece que es el sumamente importante tanto para el frontend, como para el backend. he venido aprendiendo el lenguaje a profundidad. 
-                        </p>
-                        <p>
-                            Con javascript me gusta que puedo manejar los eventos, manipular el <strong>DOM</strong>, su interactividad es algo que me llama la atencion respecto al lenguaje en el frontend.
-                        </p>
-                    
-                    
+                    <h3><b>Front-end</b></h3>
+                    <p>
+                        Manejo de  <strong>Html</strong>, <strong>Css</strong> y <strong>JavaScript</strong> para el desarrollo de este sitio web, se de html; sobre su estructura semantica con el fin de realizar sitios web accesibles y que sean llamativos para el usuario, tambien doy estilos a mis proyectos actualmente con css, considero que tengo un conocimiento intermedio, me gusta todo lo que se puede hacer como sus propiedades  y que puedo dar adaptablidad a las aplicaciones con un diseño responsive. tambien el lenguaje <i>javascript</i> me parece que es el sumamente importante tanto para el frontend, como para el backend.
+                    </p>
+                    <p>
+                        Con javascript me gusta que puedo manejar los eventos, manipular el <strong>DOM</strong>, su interactividad es algo que me llama la atencion en el frontend.
+                    </p>
+                
+                
                 </div>
 
                 <div class="text-info">
                     
-                        <h3><b>Backend</b></h3>
-                        <p>
-                            tengo conocimientos en manejo de estructuras de datos, y me apasiona lo que se puede hacer con estos. y dar soluciones a problemas que se presenten en la parte logica de una aplicacion.  
-                        </p>
-                        <p>
-                            he trabajado durante mi aprendizaje con lenguajes como <strong>Python</strong>, <strong>Java</strong> y <strong>Javascript</strong>. actualmente he venido profundizando en bases de datos <i>(postgress y mongoDB)</i>; haciendo uso de los metodos <small>(POST - PUT - GET)</small> que puedo usar y me estoy familiarizando con ellos. Manejo de archivos <strong>Json</strong> conociendo su estructura y el acceso a la informacion que estos contienen. 
-                        </p>
-                        <p>
-                            complementando este stack puedo resaltar herramientas como git-hub, y trello.
-                        </p>
+                    <h3><b>Backend</b></h3>
+                    <p>
+                        tengo conocimientos en manejo de estructuras de datos, y dar soluciones a problemas que se presenten en la parte logica de una aplicacion.  
+                    </p>
+                    <p>
+                        he trabajado durante mi aprendizaje con lenguajes como <strong>Python</strong>, <strong>Java</strong> y <strong>Javascript</strong>. actualmente he venido profundizando en bases de datos <i>(postgress y mongoDB)</i>; haciendo uso de los metodos <small>(POST - PUT - GET)</small> que puedo usar y me estoy familiarizando con ellos, Consumo de APIs, Manejo de archivos <strong>Json</strong> conociendo su estructura y el acceso a la informacion que estos contienen. 
+                    </p>
                     
+                
                 </div>
+            </article>
+            <article>
+                <p>
+                    complementando este stack puedo resaltar herramientas como git-hub, y trello. Manejo del Stack <strong>MERN</strong>, (mongoDB, ExpressJs, React, NodeJs) para el desarrollo de aplicaciones web y su correspondiente despliegue.
+                </p>
             </article>
         </section>
 
+        <section class="contactame">
+            <div class="cont-contact">
+                <div class="form">
+                    <h2>Contactame</h2>
+                    <form" class="int-form">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="tu nombre"/>
+                        
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" placeholder="example@example.com"/>
+                        
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" placeholder="ejemplo: Colaboracion"/>
+                        <br>
+                        <label for="mensaje">Mensaje:</label> 
+                        <!-- cols="30" rows="10" -->
+                        <textarea name="mensaje" id="mensaje"  placeholder="escribeme tu mensaje"></textarea>
+
+                        <button class="form-btn" type="submit">enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
         
         
         <!-- footer -->
@@ -223,19 +229,6 @@
                 </div>
                 
                 
-                
-                <!-- <div id="min-foot">
-                    <div>
-                        <h4>Contact me</h4>
-                    </div>
-                    <div class="enlaces gmail">
-                        <a href="#"><i class="fa-solid fa-envelope fa-xl"></i></a>
-                    </div>
-
-                    <div class="enlaces whatsapp">
-                        <a href="https://api.whatsapp.com/send?phone=3197954808&text=Hola,%20cordial%20saludo.%20Gracias%20por%20contactarme%20en%20que%20puedo%20ayudarte?%20"><i class="fa-brands fa-square-whatsapp fa-xl" target="_blank" rel="noopener noreferrer"></i></a>
-                    </div>
-                </div> -->
 
                     <div>
                         <p class="idea"><i class="el el-italic">"Making big ideas"</i></p>
@@ -273,7 +266,7 @@
     </div>
 
 
-    </div>
+    
     <script src="./js/ht.js"></script>
 </body>
 </html>

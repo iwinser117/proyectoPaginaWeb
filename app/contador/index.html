@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./est.css">
     <script
       src="https://kit.fontawesome.com/1e68ffedd1.js"
       crossorigin="anonymous"
@@ -18,18 +19,19 @@
     <title>Contador</title>
   </head>
   <body>
-    <div class="container-sm">
-      <div class="contador">
-        <h2>contador</h2>
-
-        <button class="btn btn-success " onclick="sumar()" >
-          <i class="fa-solid fa-plus suma "> suma</i>
-        </button>
-
-        <button class="btn btn-success" onclick="restar()">
-          <i class="fa-solid fa-minus resta"> resta</i>
-        </button>
-      </div>
+    <div class="container">
+        <div class="contador card justify-content-center align-items-center">
+          <h2>contador</h2>
+        </div>
+        <div class="align-items-center justify-content-center rows">
+            <button class="btn btn-success " onclick="sumar()" >
+                <i class="fa-solid fa-plus suma "> suma</i>
+              </button>
+      
+              <button class="btn btn-success" onclick="restar()">
+                <i class="fa-solid fa-minus resta"> resta</i>
+              </button>
+        </div>
     </div>
     <script src="./index.js"></script>
   </body>
