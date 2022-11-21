@@ -10,20 +10,15 @@
       crossorigin="anonymous"
     ></script>
     <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
+    
     <title>Contador</title>
   </head>
   <body>
     <div class="container">
-        <div class="contador card justify-content-center align-items-center">
+        <div class="contador cont-title">
           <h2>contador</h2>
         </div>
-        <div class="align-items-center justify-content-center rows">
+        <div class="cont-btn">
             <button class="btn btn-success " onclick="sumar()" >
                 <i class="fa-solid fa-plus suma "> suma</i>
               </button>
@@ -31,6 +26,9 @@
               <button class="btn btn-success" onclick="restar()">
                 <i class="fa-solid fa-minus resta"> resta</i>
               </button>
+        </div>
+        <div class="btn-reset reset " >
+          <button type="reset" onclick="resetear()">Reset</button>
         </div>
     </div>
     <script src="./index.js"></script>
