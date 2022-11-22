@@ -1,0 +1,66 @@
+/* estilos al nav */
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  
+  border-bottom: var(--azulOscuro) solid 1px ; 
+  min-height: 40px;
+  background: var(--blanco);
+}
+
+.nav .list {
+  display: block;
+  align-self: center;
+  width: 60%;
+}
+.nav .list .nav-list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-self: center;
+}
+.logo-nav {
+  display: none;
+  justify-content: flex-end;
+}
+nav li {
+  display: flex;
+  height: 60px;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+}
+li a:hover {
+  /* background: rgba(109, 156, 226, 0.301); */
+  /* cursor: pointer; */
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  color: black;
+}
+.nav a {
+  text-decoration: none;
+  color: rgb(1, 53, 1);
+  font-size: 1.4em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .name {
+  align-self: center;
+  color: rgb(12, 12, 12);
+  margin-right: 20px;
+  display: flex;
+}

@@ -1,0 +1,37 @@
+.centrArt{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    width: 70%;
+    margin: auto;
+    min-height: 400px;
+    padding:  6em 0em;
+}
+.centrArt h2 {
+    font-size: 2em;
+    padding: 10px 0px;
+}
+.text-info {
+    padding:2em 0em;
+}
+.centrArt p {
+    text-align: justify;
+    font-size: 1.3em;
+    line-height: 170%;
+}
+
+/* certificados iconos */
+.certificados {
+    padding-top: 2em;
+    font-family: 'Lato', sans-serif;
+}
+.certificados p {
+    padding-top: 0.6em;
+}
+.certificados-iconos li {
+    margin-left:2em;
+    list-style:circle;
+}
+.fa-graduation-cap {
+    color:rgb(122, 111, 9);
+}
+
