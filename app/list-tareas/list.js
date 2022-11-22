@@ -27,11 +27,29 @@ const tareas = [
   ),
 ];
 
+let icon = document.createElement('div');
+
+
 function mostrarTareas() {
   let datos = "";
   for (let tar of tareas) {
     console.log(tar);
-    datos += `<li>${tar.nombre} <div>Descripcion: <br> ${tar.descripcion}</div></li>`;
+    datos += `
+      <li>
+      <div class="nombre">
+      ${tar.nombre} 
+      </div>
+      
+      <div class="descrptn">
+        Descripcion: <br> 
+        ${tar.descripcion}
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-check"></i>
+        </div>
+      </li>
+      
+      `;
   }
   document.getElementById("tareas").innerHTML = datos;
 }
