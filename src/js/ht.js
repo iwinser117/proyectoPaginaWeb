@@ -26,3 +26,19 @@ function ocultar() {
     document.getElementsByClassName('logoNav').style.display = "flex";
 }
 
+
+
+
+let mostrarTextBtn = document.getElementById('mostrarTextBtn');
+let mostrarText = document.getElementById('mostrarText');
+
+mostrarTextBtn.addEventListener('click', toogleMostrarText);
+
+function toogleMostrarText(){
+    mostrarText.classList.toggle('verList')
+    if(mostrarText.classList.contains('verList')){
+        mostrarTextBtn.innerHTML = 'Mostrar menos'
+    }else{
+        mostrarTextBtn.innerHTML = 'Mostrar mas'
+    }
+}

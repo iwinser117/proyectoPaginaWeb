@@ -29,9 +29,14 @@
 }
 .certificados-iconos li {
     margin-left:2em;
-    list-style:circle;
+    list-style:circle ;   
 }
 .fa-graduation-cap {
-    color:rgb(122, 111, 9);
+    color:var(--azulOscuro);
 }
-
+.mostrarList {
+    display: none;
+}
+.verList {
+    display: block;
+} 
