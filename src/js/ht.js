@@ -37,8 +37,8 @@ mostrarTextBtn.addEventListener('click', toogleMostrarText);
 function toogleMostrarText(){
     mostrarText.classList.toggle('verList')
     if(mostrarText.classList.contains('verList')){
-        mostrarTextBtn.innerHTML = 'Mostrar menos'
+        mostrarTextBtn.innerHTML = 'Ver menos...'
     }else{
-        mostrarTextBtn.innerHTML = 'Mostrar mas'
+        mostrarTextBtn.innerHTML = '...Ver mas'
     }
 }

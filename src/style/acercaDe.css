@@ -34,9 +34,32 @@
 .fa-graduation-cap {
     color:var(--azulOscuro);
 }
+
 .mostrarList {
     display: none;
 }
 .verList {
     display: block;
 } 
+.certificados-iconos button {
+    border: none;
+    border-bottom: 1px solid;
+    color: var(--azulOscuro);
+    display: block;
+    margin: auto;
+    font-size: 1em;
+    padding: 2px;
+    background:var(--blanco);
+}
+.certificados-iconos button:hover {
+    position: relative;
+    border: none;
+    border-bottom: 1px solid;
+    color: var(--amarillo);
+    background:var(--azulClaromas);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}

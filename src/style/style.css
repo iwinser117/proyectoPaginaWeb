@@ -31,6 +31,7 @@ font-family: 'Source Sans Pro', sans-serif;*/
     display: flexbox;
     flex-direction: column;
     margin: auto;
-    background: #ffffff;
+    /* background: #ffffff; */
+    
 }
 

@@ -4,6 +4,11 @@
     display: flex;
     justify-content: center;
     padding: 2em 0em;
+    background-image: url(../images/bkg3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
 .cont-contact {
     width: 80%;
@@ -23,7 +28,6 @@
 .form input[type="text"] {
     position: relative;
     margin-left: 40px;
-    
     border:none;
     border-radius: 8px;
     padding: 6px;
@@ -42,11 +46,35 @@
     box-shadow: 2px 2px 5px #999;
 }
 .form-btn {
-    background: rgba(53, 233, 8, 0.644);
-    width: 80px;
+    background-color: #073e5c;
+    width: 20%;
     margin: 2em 50%;
+    color:white;
+    padding: 2px;
+    font-size: 1.1em;
+    border-radius:6px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    -ms-border-radius:6px;
+    -o-border-radius:6px;
+    border:none;
+    box-shadow: 2px 2px 5px rgb(34, 33, 33);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 .form-btn:hover {
-    background: #000;
-    color:white;
+    transition: 0.5s;
+    background: #b7c2bc;
+    color:var(--negro);
+    cursor: pointer ;
+    content: '\F01BD';
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+textarea{
+    padding: 4px;
 }
