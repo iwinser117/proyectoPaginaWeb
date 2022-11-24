@@ -42,3 +42,10 @@ function toogleMostrarText(){
         mostrarTextBtn.innerHTML = '...Ver mas'
     }
 }
+
+function verNotiNull (){
+    confirm(
+        `Disculpe los inconvenientes...☹️
+        no funciona el formulario temporalmente
+        se dejan otros medios de contacto 😊`)
+}

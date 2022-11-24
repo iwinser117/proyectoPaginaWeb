@@ -34,7 +34,12 @@
 .fa-graduation-cap {
     color:var(--azulOscuro);
 }
-
+.certificados-iconos ul li {
+    list-style: none;
+}
+.certificados li pre i {
+    color:var(--amarillo);
+}
 .mostrarList {
     display: none;
 }

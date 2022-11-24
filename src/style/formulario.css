@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
+    position: relative;
 }
 .cont-contact {
     width: 80%;
@@ -77,4 +77,18 @@
 }
 textarea{
     padding: 4px;
+}
+.notiNull {
+    border:solid 1px;
+    width: 25%;
+    height: auto;
+    z-index: 100;
+    position: absolute;
+    top:40%;
+    right: 10%;
+    left: 50%;
+    bottom:30%;
+}
+.notiNull p {
+    font-size: 1.2em;
 }
