@@ -53,7 +53,6 @@ nav li a:hover {
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
   color:var(--amarillo);
-  font-weight: 1000;
   position: relative;
   top:-2px;
 }

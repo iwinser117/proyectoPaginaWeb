@@ -79,16 +79,49 @@ textarea{
     padding: 4px;
 }
 .notiNull {
-    border:solid 1px;
-    width: 25%;
+    display:none;
+    border:none;
+    border-radius: 12px;
+    background: rgb(196, 90, 64);
+    box-shadow: 2px 2px 5px rgb(34, 33, 33);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
     height: auto;
     z-index: 100;
     position: absolute;
     top:40%;
-    right: 10%;
-    left: 50%;
-    bottom:30%;
+    right: 30%;
+    left: 30%;
+    /* bottom:30%; */
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
 }
 .notiNull p {
+    
+    padding: 4px;
     font-size: 1.2em;
+}
+.fa-xmark1 {
+    text-align: center;
+    bottom: 4px;
+    margin: auto;
+    position: relative;
+    
+}
+.fa-xmark1 button {
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.fa-xmark1 i {
+    
+    
+    color:rgb(0, 27, 85);
+    font-size: 2.2em;
+    
+    font-weight: bold;
 }

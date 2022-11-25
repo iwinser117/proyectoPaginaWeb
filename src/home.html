@@ -192,32 +192,37 @@
             </article>
         </section>
 
-        <section class="contactame">
+        <section class="contactame" id="contacto">
             <div class="cont-contact">
-                <div class="form">
+                <div class="form">  
                     <h2>Contactame</h2>
-                    <form" class="int-form">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" placeholder="tu nombre"/>
+                    <!-- action="https://formsubmit.co/iwinser.sanchez47@gmail.com" -->
+                    <form class="int-form" action="https://formsubmit.co/iwinser.sanchez47@gmail.com"  method="POST" >
+                        <label for="nombre" >Nombre:</label>
+                        <input name="nombre"  type="text" id="nombre" placeholder="tu nombre"/>
                         
                         <label for="email">Email:</label>
-                        <input type="text" id="email" placeholder="example@example.com"/>
+                        <input type="text" id="email" name="email" placeholder="example@example.com"/>
                         
                         <label for="asunto">Asunto:</label>
-                        <input type="text" id="asunto" placeholder="ejemplo: Colaboracion"/>
+                        <input type="text" id="asunto" name="asunto" placeholder="ejemplo: Colaboracion"/>
                         <br>
                         <label for="mensaje">Mensaje:</label> 
                         <!-- cols="30" rows="10" -->
                         <textarea name="mensaje" id="mensaje"  placeholder="escribeme tu mensaje"></textarea>
 
-                        <button class="form-btn" onmousemove="" type="submit">enviar mensaje</button>
+                        <button  class="form-btn" type="submit">enviar mensaje</button>
 
-                        <div class="notiNull">
+                        <div class="notiNull" id="divOculto" >
                             <p>
-                                Disculpe los inconvenientes...☹️
+                                Disculpe los inconvenientes...☹️ <br>
                                 no funciona el formulario temporalmente
                                 se dejan otros medios de contacto 😊.
                             </p>
+                            <div class="fa-xmark1" >
+                                <button onclick="ocultarDiv()"><i class="fa-solid fa-xmark" ></i></button>
+                                
+                            </div>
                         </div>
                     </form>
                 </div>

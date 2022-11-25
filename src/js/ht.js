@@ -43,9 +43,9 @@ function toogleMostrarText(){
     }
 }
 
-function verNotiNull (){
-    confirm(
-        `Disculpe los inconvenientes...☹️
-        no funciona el formulario temporalmente
-        se dejan otros medios de contacto 😊`)
+function verDiv (){
+    document.getElementById('divOculto').style.display = "block";
+}
+function ocultarDiv() {
+    document.getElementById('divOculto').style.display = 'none';
 }
