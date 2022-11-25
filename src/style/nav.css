@@ -8,15 +8,10 @@
   box-shadow: -7px 8px 4px -1px hsla(219, 71%, 50%, 0.61);
   min-height: 40px;
   background: var(--blanco);
-  border-radius:12px;
+  border-radius: 12px;
   width: 90%;
-  background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,161,232,0.31620798319327735) 1%, rgba(124,161,232,0.1430147058823529) 56%, rgba(251,251,251,1) 88%);
-  -moz-border-radius:12px;
-  -ms-border-radius:12px;
-  -o-border-radius:12px;
-  -webkit-border-radius:12px;
-  
+  background: rgb(255, 255, 255);
+  background: linear-gradient(    90deg,    rgba(255, 255, 255, 1) 0%,    rgba(124, 161, 232, 0.31620798319327735) 1%,    rgba(124, 161, 232, 0.1430147058823529) 56%,    rgba(251, 251, 251, 1) 88%  );
 }
 
 .nav .list {
@@ -51,13 +46,12 @@ nav li a:hover {
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
-  color:var(--amarillo);
+  color: var(--amarillo);
   position: relative;
-  top:-2px;
+  top: -2px;
 }
 
-
-.nav li a  {
+.nav li a {
   text-decoration: none;
   color: var(--azulOscuro);
   font-size: 1.4em;
@@ -77,8 +71,10 @@ nav li a:hover {
   display: flex;
 }
 
-
 /* responsive */
-.btn-peque {
+#btn-peque {
+  display: none;
+}
+li .fa-caret-up {
   display: none;
 }
