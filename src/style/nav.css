@@ -16,10 +16,10 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,161,232,0.31
   -ms-border-radius:12px;
   -o-border-radius:12px;
   -webkit-border-radius:12px;
+  
 }
 
 .nav .list {
-  
   display: block;
   align-self: center;
   width: 60%;
@@ -42,7 +42,6 @@ nav li {
   margin: auto;
   width: 100%;
   justify-content: center;
-  
 }
 nav li a:hover {
   border-bottom: solid 1px;
@@ -76,4 +75,10 @@ nav li a:hover {
   color: rgb(12, 12, 12);
   margin-right: 20px;
   display: flex;
+}
+
+
+/* responsive */
+.btn-peque {
+  display: none;
 }

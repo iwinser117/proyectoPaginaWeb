@@ -1,0 +1,48 @@
+/* aplicando cambios al nav desde 768 hasta 576 */
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    display: flexbox;
+    flex-direction: column;
+    margin: auto;
+    /* background: #ffffff; */
+  }
+  .nav {
+    width: 100%;
+    min-height: 50px;
+    background:none;
+    box-shadow:none;
+    flex-direction: column;
+    position: fixed;
+  }
+  .nav .list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(9, 107, 153, 0.267);
+    height: auto;
+  }
+  nav li {
+    display: flex;
+    height: 50px;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .btn-peque {
+    display: flex;
+    font-size: 2em;
+    margin-left: 24px;
+    align-items:center;
+    top:2px;
+  }
+  
+  .nav .list .nav-list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+}

@@ -49,3 +49,12 @@ function verDiv (){
 function ocultarDiv() {
     document.getElementById('divOculto').style.display = 'none';
 }
+
+function menuMostrar (){
+    document.getElementById('list').style.display = 'flex';
+    document.getElementById('btn-peque').style.display = 'none';
+}
+function menuOcultar (){
+    document.getElementById('list').style.display = 'none';
+    document.getElementById('btn-peque').style.display = 'flex';
+}

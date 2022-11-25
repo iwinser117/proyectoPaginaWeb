@@ -14,27 +14,19 @@
 }
 
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    text-align: center;
-    /* padding: 10px 20px; */
-    height: auto;
-    background: rgb(107, 106, 106);
-}
 
-.nav .list {
+
+/* .nav .list {
     display: block;
     align-self: center;
     width: 20%;
     height: 100%;
     
-}
+} */
 .nav a{
     height: 100%;
 }
-.nav .list .nav-list {
+/* .nav .list .nav-list {
     width: 100%;
     list-style: none;
     display: flex;
@@ -42,7 +34,7 @@
     text-align: center;
     align-self: center; 
     margin-bottom: 0px;
-}
+} */
 .logo-nav{
     display: none;
     justify-content: flex-end;
