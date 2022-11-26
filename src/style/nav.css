@@ -78,3 +78,8 @@ nav li a:hover {
 li .fa-caret-up {
   display: none;
 }
+#imgl {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+}

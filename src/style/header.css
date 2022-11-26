@@ -1,8 +1,6 @@
 .header {
   height: 100vh;
-  /* min-height: 480px; */
   margin: auto;
-  /* height: 100vh; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -52,12 +50,6 @@
     font-weight: bold;
 }
 
-.title p {
-  font-size: 1.5em;
-  width: 70%;
-  line-height: 150%;
-  padding: 14px;
-}
 .logotitle {
   width: 30%;
   display: flex;
@@ -65,11 +57,7 @@
   align-items: center;
   justify-content: space-evenly;
 }
-#imgl {
-  position: fixed;
-  top: 8px;
-  right: 8px;
-}
+
 
 .perfil {
   width: 250px;

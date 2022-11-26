@@ -14,57 +14,118 @@
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
-}
+  }
 
   .nav {
     width: 100%;
     min-height: 50px;
-    background:none;
-    box-shadow:none;
+    background: none;
+    box-shadow: none;
     flex-direction: column;
     position: fixed;
-    
-}
+  }
   .nav .list {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: rgba(9, 107, 153, 0.267);
+    background: rgba(2, 38, 105, 0.719);
     height: auto;
-    
   }
-  
+
   nav li {
     display: flex;
     height: 50px;
     margin: auto;
     width: 100%;
     justify-content: center;
-    
   }
   #btn-peque {
     display: flex;
     font-size: 2em;
     margin-left: 24px;
-    align-items:center;
-    top:2px;
+    align-items: center;
+    top: 2px;
     z-index: 100;
     transition: 1s;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
-}
+  }
   li .fa-caret-up {
     display: block;
   }
-  
+  .nav li a {
+    color: white;
+    font-weight: bold;
+  }
+
   .nav .list .nav-list {
     width: 100%;
     list-style: none;
     display: flex;
     flex-direction: column;
     align-self: center;
-    
+  }
+  #imgl {
+    position: absolute;
+    top: 5%;
+    right: 22px;
+    opacity: 0.5;
+  }
+
+  /* ahora otra seccion ----HEADER----  */
+  .header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .title h1 {
+    text-transform: capitalize;
+    font-size: 2.4em;
+    font-weight: 600;
+  }
+  .title {
+    min-height: auto;
+    width: 90%;
+    margin-top: 60px;
+  }
+  .logotitle {
+    width: 30%;
+    display: flex;
+    min-height: auto;
+  }
+  .perfil {
+    width: 140px;
+    margin-top: 20px;
+  }
+  /* ahora la seccion de -----acerca de mi---- */
+  .centrArt {
+    width: 94%;
+    margin: auto;
+    min-height: auto;
+    padding: 2em 0em;
+  }
+  .certificados {
+    padding-top: 1em;
+  }
+  .certificados-iconos ul {
+    width: 90%;
+  }
+  .certificados ul p {
+    line-height: 130%;
+  }
+  /* acomodando el formulario */
+  .contactame {
+    width: 90%;
+  }
+  .form input[type="text"] {
+    width: 80%;
+  }
+  .form textarea {
+    width: 80%;
+  }
+  .form-btn {
+    width: 50%;
   }
 }

@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     padding: 2em 0em;
-    background-image: url(../images/bkg3.jpg);
+     background-image:url(https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -20,8 +20,10 @@
 }
 .form h2 {
     margin: 1em 0em;
+    color:var(--blanco);
 }
 .form label {
+    color:var(--blanco);
     font-weight: 500;
 	margin-bottom: 4px;
 }
