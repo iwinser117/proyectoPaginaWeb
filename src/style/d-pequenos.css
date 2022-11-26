@@ -69,8 +69,8 @@
   }
   #imgl {
     position: absolute;
-    top: 5%;
     right: 22px;
+    top: 2px;
     opacity: 0.5;
   }
 
