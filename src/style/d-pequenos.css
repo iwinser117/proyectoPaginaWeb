@@ -128,4 +128,28 @@
   .form-btn {
     width: 50%;
   }
+
+  /* FOOTER */
+
+
+  .footer {
+    padding: 2em 0em;
+    height: auto;
+    width: 90%;
+    display: block;
+    flex-direction: column;
+  }
+  .idea {
+    margin-top: 2em;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+    font-family: "Comforter Brush", cursive;
+  }
+  .info-footer-image {
+    text-align: center;
+}
+.datos-footer {
+  text-align: center;
+}
 }

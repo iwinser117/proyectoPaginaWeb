@@ -1,11 +1,6 @@
 
 /* estilos del footer */
-.t-foot {
-    display: none;
-}
-#min-foot {
-    display: none;
-}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -15,7 +10,6 @@ footer {
     height: 150px;
     width: 100%;
     margin: auto;
-   /*  background: rgba(109, 156, 226, 0.575); */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -25,7 +19,6 @@ footer {
 .footer .info-footer {
     display: flex;
     flex-direction: column;
-    /* align-content: space-between; */
 }
 .info-footer .con-foo {
     height: 20px;
@@ -111,3 +104,6 @@ footer {
     -o-transition: 0.5s;
     background:white;
 }
+.datos-footer {
+    text-align: center;
+  }
