@@ -17,7 +17,7 @@
 .nav .list {
   display: block;
   align-self: center;
-  width: 60%;
+  min-width: 90%;
 }
 .nav .list .nav-list {
   width: 100%;

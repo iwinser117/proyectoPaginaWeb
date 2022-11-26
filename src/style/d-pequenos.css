@@ -1,6 +1,6 @@
 /* aplicando cambios al nav desde 768 hasta 576 */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 868px) {
   .container {
     width: 100%;
     display: flexbox;
