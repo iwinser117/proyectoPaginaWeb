@@ -1,5 +1,5 @@
-const color = document.getElementById('color');
-const bgPalet = document.getElementById('cont-palet')
+const color = document.getElementById("color");
+const bgPalet = document.getElementById("cont-palet");
 const seleccion = document.getElementById("salida");
 
 const almacenamiento = localStorage.getItem("valorColor") || "#ffffff";

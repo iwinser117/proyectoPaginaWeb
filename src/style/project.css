@@ -104,7 +104,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid 1px;
+    
+    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000  , 0 -1px 0 #000, 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+    color: var(--blanco);
   }
   .container-palett h2 {
 text-transform:capitalize;
@@ -112,6 +115,7 @@ padding: 0.5em 0em;
   }
   .salida {
     text-align: center;
+   
   }
   .color-div {
     margin: 4px 0;
