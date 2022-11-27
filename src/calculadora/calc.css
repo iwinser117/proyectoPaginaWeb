@@ -1,0 +1,86 @@
+:root {
+  --blanco: #ffffff;
+  --negro: #000000;
+  --azulOscuro: #0c398c;
+  --azulClaro: #4586ff;
+  --azulClaromas: #2564d9;
+  --dorado: #8c6000;
+  --amarillo: #d9a025;
+}
+.container-calc {
+  font-size: 1.3em;
+  width: 40%;
+  display: flex;
+  border: solid 1px;
+  flex-direction: column;
+  background: var(--azulClaro);
+}
+.title-calculadora {
+  text-align: center;
+}
+.for-calc {
+  margin: auto;
+}
+.for-calc .operando-a,
+.operando-b {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+.for-calc input {
+  margin-top: 4px;
+  border-radius: 4px;
+  border: none;
+  height: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.reset-calc {
+  cursor: pointer;
+  width: 30%;
+  padding: 2px 0px;
+  font-weight: 600;
+  margin: 12px auto auto;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.reset-calc:hover {
+  color: red;
+}
+.btns-finciones {
+  padding: 1em;
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.btns-finciones .btn {
+  width: 24%;
+  cursor: pointer;
+}
+.btns-finciones .btn:hover {
+  background-color: var(--azulOscuro);
+  color: var(--blanco);
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+#resultado {
+  background: var(--azulOscuro);
+  z-index: 200;
+  width: 40%;
+  margin: auto;
+  padding: 4px;
+  text-align: justify;
+  color: var(--blanco);
+}
