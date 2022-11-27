@@ -63,8 +63,7 @@
 
 .perfil {
   width: 250px;
-  box-shadow: inset 0 -1em 0em hsla(41, 100%, 27%, 0.747),
-    0 0em 0px 0px hsla(41, 100%, 27%, 0.747), -0.3em 0.3em 1em hsla(41, 100%, 27%, 0.747);
+  
   border-radius: 45%;
   -webkit-border-radius: 45%;
   -moz-border-radius: 45%;

@@ -1,122 +1,262 @@
 :root {
-    --blanco: #ffffff;
-    --negro: #000000;
-    --azulOscuro: #0c398c;
-    --azulClaro: #4586ff;
-    --azulClaromas: #2564d9;
-    --dorado: #8c6000;
-    --amarillo: #d9a025;
-  }
-  .container {
-    height: 100vh;
-   
-  }
- /* The above code is creating a calculator with HTML, CSS and JavaScript. */
-  .container-calc {
-    margin-bottom: 20px;
-    font-size: 1.3em;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    background: var(--azulClaro);
-  }
- 
-  .title-calculadora {
-    text-align: center;
-  }
-  .for-calc {
-    margin: auto;
-  }
-  .for-calc .operando-a,
-  .operando-b {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    margin: 8px;
-  }
-  .for-calc input {
-    margin-top: 4px;
-    border-radius: 4px;
-    border: none;
-    height: 20px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-  }
-  .reset-calc {
-    cursor: pointer;
-    width: 30%;
-    padding: 2px 0px;
-    font-weight: 600;
-    margin: 12px auto auto;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-  }
-  .reset-calc:hover {
-    color: red;
-  }
-  .btns-finciones {
-    padding: 1em;
-    margin: auto;
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .btns-finciones .btn {
-    width: 24%;
-    cursor: pointer;
-  }
-  .btns-finciones .btn:hover {
-    background-color: var(--azulOscuro);
-    color: var(--blanco);
-    border: none;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-  }
-  #resultado {
-    background: var(--azulOscuro);
-    z-index: 200;
-    width: 40%;
-    margin: auto;
-    padding: 4px;
-    text-align: justify;
-    color: var(--blanco);
-  }
-  
+  --blanco: #ffffff;
+  --negro: #000000;
+  --azulOscuro: #0c398c;
+  --azulClaro: #4586ff;
+  --azulClaromas: #2564d9;
+  --dorado: #8c6000;
+  --amarillo: #d9a025;
+}
+.container {
+  height: 100vh;
+}
+/* The above code is creating a calculator with HTML, CSS and JavaScript. */
+.container-calc {
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background: var(--azulClaro);
+}
 
+.title-calculadora {
+  text-align: center;
+}
+.for-calc {
+  margin: auto;
+}
+.for-calc .operando-a,
+.operando-b {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+.for-calc input {
+  margin-top: 4px;
+  border-radius: 4px;
+  border: none;
+  height: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.reset-calc {
+  cursor: pointer;
+  width: 30%;
+  padding: 2px 0px;
+  font-weight: 600;
+  margin: 12px auto auto;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.reset-calc:hover {
+  color: red;
+}
+.btns-finciones {
+  padding: 1em;
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.btns-finciones .btn {
+  width: 24%;
+  cursor: pointer;
+}
+.btns-finciones .btn:hover {
+  background-color: var(--azulOscuro);
+  color: var(--blanco);
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+#resultado {
+  background: var(--azulOscuro);
+  z-index: 200;
+  width: 40%;
+  margin: auto;
+  padding: 4px;
+  text-align: justify;
+  color: var(--blanco);
+}
 
-  /* paleta de colores */
+/* paleta de colores */
 /* Creating a container for the palette. */
-  .container-palett{
-    margin-bottom: 20px;
-    font-size: 1.3em;
-    width: 40%;
-    height: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000  , 0 -1px 0 #000, 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+.container-palett {
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  width: 40%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000,
+    1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  color: var(--blanco);
+}
+.container-palett h2 {
+  text-transform: capitalize;
+  padding: 0.5em 0em;
+}
+.salida {
+  text-align: center;
+}
+.color-div {
+  margin: 4px 0;
+}
+/* Creating a container for the counter. */
 
-    color: var(--blanco);
-  }
-  .container-palett h2 {
-text-transform:capitalize;
-padding: 0.5em 0em;
-  }
-  .salida {
-    text-align: center;
-   
-  }
-  .color-div {
-    margin: 4px 0;
-  }
+.cont-contador {
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  width: 40%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(25, 224, 58);
+}
+.cont-title {
+  width: 100%;
+  height: 50%;
+  /* background: rgb(38, 82, 150); */
+  display: flex;
+}
+.contador-int h2 {
+  font-size:3em;
+  margin: auto;
+  color: rgb(5, 30, 145);
+}
+
+.cont-btn {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.btn-success {
+  display: flex;
+  height: 20px;
+  border: none;
+  align-items:center;
+  border-radius: 6px;
+  background: rgb(98, 231, 9);
+  box-shadow: 0px 10px 10px black;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  cursor: pointer;
+}
+.reset button{
+  background: rgb(197, 73, 42);
+  border-radius: 6px;
+  border:none;
+  box-shadow: 0px 10px 10px rgb(167, 167, 167);
+  cursor: pointer;
+}
+
+
+/* lista de tareas */
+.list-tareas {
+  width: 40%;
+  height: auto;
+  
+  background: rgb(56, 116, 247);
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+
+}
+
+.title {
+  font-size: 1.6em;
+  color: rgb(224, 202, 2);
+  text-align: center;
+}
+.cont-lista li {
+  list-style: square;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.form h5 {
+  font-size: 1.3em;
+  text-transform: capitalize;
+  color: white;
+}
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  justify-content: space-around;
+}
+.inputs input {
+  width: 40%;
+  height: 16px;
+}
+.inputs textarea {
+  width: 50%;
+  min-height: 80px;
+  margin-bottom: 14px;
+}
+.form form {
+  display: flex;
+  height: auto;
+}
+.btn-list {
+  padding: 1em 0em;
+}
+.elemento {
+  width: 90%;
+  margin: auto;
+}
+.elemento li {
+  width: 100%;
+  margin-bottom: 6px;
+  color:black;
+  display: flex;
+  flex-direction: row;
+}
+.elemento ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+.descrptn {
+  width: 250px;
+  padding: 0em 1em;
+}
+.icon {
+  display: flex;
+  width: 60px;
+  color: black;;
+}
+
+.nombre {
+  width: 80px;
+}
