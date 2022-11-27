@@ -8,15 +8,19 @@
     --amarillo: #d9a025;
   }
   .container {
-    width: 90%;
+    height: 100vh;
+   
   }
+ /* The above code is creating a calculator with HTML, CSS and JavaScript. */
   .container-calc {
+    margin-bottom: 20px;
     font-size: 1.3em;
     width: 40%;
     display: flex;
     flex-direction: column;
     background: var(--azulClaro);
   }
+ 
   .title-calculadora {
     text-align: center;
   }
@@ -87,3 +91,28 @@
     color: var(--blanco);
   }
   
+
+
+  /* paleta de colores */
+/* Creating a container for the palette. */
+  .container-palett{
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    width: 40%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+  }
+  .container-palett h2 {
+text-transform:capitalize;
+padding: 0.5em 0em;
+  }
+  .salida {
+    text-align: center;
+  }
+  .color-div {
+    margin: 4px 0;
+  }

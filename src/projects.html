@@ -1,91 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="./calculadora/calc.css"> -->
-    <link rel="stylesheet" href="./style/project.css">
-    <link rel="stylesheet" href="./style/nav.css">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/project.css" />
+    <link rel="stylesheet" href="./style/nav.css" />
+    <link rel="stylesheet" href="./style/style.css" />
 
-   
+    <script
+      src="https://kit.fontawesome.com/1e68ffedd1.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Projects</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <nav>
-
-            <div class="nav">
-                <div class="list" id="list">
-
-                    <div class="li">
-                        <ul class="nav-list" >
-                            <li><a href="#contacto" class="nav-link">Contactame</a></li>
-                            <li onclick="menuOcultar()"><a ><i class="fa-solid fa-caret-up"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="btn-peque" id="btn-peque" onclick="menuMostrar()"><i class="fa-solid fa-bars"></i></div>
-                <div class="name">
-                    <img src="./images/ok.svg" height="50px" id="imgl" alt="">
-                </div>
+      <nav>
+        <div class="nav">
+          <div class="list" id="list">
+            <div class="li">
+              <ul class="nav-list">
+                <li><a href="#contacto" class="nav-link">Contactame</a></li>
+                <li onclick="menuOcultar()">
+                  <a><i class="fa-solid fa-caret-up"></i></a>
+                </li>
+              </ul>
             </div>
-        </nav>
+          </div>
+          <div class="btn-peque" id="btn-peque" onclick="menuMostrar()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="name">
+            <img src="./images/ok.svg" height="50px" id="imgl" alt="" />
+          </div>
+        </div>
+      </nav>
 
-        <section class="sec-project">
-            <h2>paleta de colores</h2>
+      <section class="sec-palett">
+        <div class="container-palett" id="cont-palet">
+          <h2>paleta de colores</h2>
 
-            <div class="salida" id="salida">#0as2df</div>
+          <div class="salida" id="salida">
+            #ffffff 
+          </div>
 
-            <div class="color-div">
-                <input type="color" id="color">
-            </div>
-        </section>
+          <div class="color-div">
+            <input type="color" id="color" />
+          </div>
+        </div>
+      </section>
 
-        <section class="sec-project">
-            <div class="container-calc">
-            <h1 class="title-calculadora">Calculadora Basica</h1>
+      <section class="sec-cal">
+        <div class="container-calc">
+          <h1 class="title-calculadora">Calculadora Basica</h1>
 
-        <form id="forma" class="for-calc">
+          <form id="forma" class="for-calc">
             <div class="operando-a">
-                <label for="operandoA">OperandoA</label>
-                <input type="number" id="operandoA" placeholder="escribe operando A">
+              <label for="operandoA">OperandoA</label>
+              <input
+                type="number"
+                id="operandoA"
+                placeholder="escribe operando A"
+              />
             </div>
             <div class="operando-b">
-                <label for="operandoB">Operando B</label>
-                <input type="number" placeholder="escribe operando B" id="operandoB">
+              <label for="operandoB">Operando B</label>
+              <input
+                type="number"
+                placeholder="escribe operando B"
+                id="operandoB"
+              />
             </div>
-        </form>
+          </form>
 
-        <button type="reset" class="reset-calc" onclick="resetForm()" value="Borrar">Borrar</button>
+          <button
+            type="reset"
+            class="reset-calc"
+            onclick="resetForm()"
+            value="Borrar"
+          >
+            Borrar
+          </button>
 
-        <div class="btns-finciones">
+          <div class="btns-finciones">
             <button class="btn sumar" onclick="sumar()">Sumar</button>
 
             <button class="btn resta" onclick="restar()">Restar</button>
 
-            <button class="btn multi" onclick="multiplicar()">Multiplicar</button>
+            <button class="btn multi" onclick="multiplicar()">
+              Multiplicar
+            </button>
 
             <button class="btn divide" onclick="dividir()">Dividir</button>
+          </div>
+
+          <div id="resultado" class="resetRes"></div>
         </div>
-
-
-        <div id="resultado" class="resetRes"></div>
-
+      </section>
     </div>
-        </section>
-
-
-
-        
-
-
-
-    </div>
-
 
     <script src="./calculadora/js/app.js"></script>
     <script src="../src/colorpicker/app/colr.js"></script>
-</body>
+  </body>
 </html>
