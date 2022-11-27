@@ -1,0 +1,89 @@
+/* estilos al nav */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    min-height: 40px;
+    width: 100%;
+    border-bottom:solid 1px ;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-memphis-semitono-azul-lineas-amarillas-formas-circulos_1017-31954.jpg?w=900&t=st=1669565660~exp=1669566260~hmac=184f8885228b5a2f223febcd31f5fd8b2b3dba5b93c542d29b94030d7bdc5649);
+    background-repeat: no-repeat;
+    position: static;
+    background-attachment: fixed;
+    background-size: cover;
+        
+    
+    margin-bottom: 24px;
+}
+  
+  .nav .list {
+    display: block;
+    align-self: center;
+    min-width: 50%;
+  }
+  .nav .list .nav-list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-self: center;
+  }
+  .logo-nav {
+    display: none;
+    justify-content: flex-end;
+  }
+  nav li {
+    display: flex;
+    height: 60px;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+  }
+  nav li a:hover {
+    border-bottom: solid 1px;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    color: var(--amarillo);
+    position: relative;
+    top: -2px;
+  }
+  
+  .nav li a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 1.4em;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    margin: auto;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav .name {
+    align-self: center;
+    color: rgb(12, 12, 12);
+    margin-right: 20px;
+    display: flex;
+  }
+  
+  /* responsive */
+  #btn-peque {
+    display: none;
+  }
+  li .fa-caret-up {
+    display: none;
+  }
+  #imgl {
+    position: fixed;
+    top: 2px;
+    right: 8px;
+  }

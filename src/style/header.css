@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 .title {
@@ -15,6 +16,7 @@
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
+  
 }
 .title-principal {
   background: #ffffff;
@@ -68,4 +70,5 @@
   -moz-border-radius: 45%;
   -ms-border-radius: 45%;
   -o-border-radius: 45%;
+  
 }
