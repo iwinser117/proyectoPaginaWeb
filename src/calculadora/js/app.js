@@ -2,6 +2,7 @@ const forma = document.getElementById(`forma`);
 let operandoA = forma[`operandoA`];
 let operandoB = forma[`operandoB`];
 
+
 function sumar() {
   let resultado = parseFloat(operandoA.value) + parseFloat(operandoB.value);
   if (isNaN(resultado)) {

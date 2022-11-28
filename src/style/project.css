@@ -18,6 +18,7 @@
   display: flex;
   flex-direction: column;
   background: var(--azulClaro);
+  
 }
 
 .title-calculadora {
@@ -44,6 +45,7 @@
   -o-border-radius: 4px;
 }
 .reset-calc {
+  
   cursor: pointer;
   width: 30%;
   padding: 2px 0px;
@@ -81,6 +83,7 @@
   -o-border-radius: 3px;
 }
 #resultado {
+  transition: all 1s ease-in-out;
   background: var(--azulOscuro);
   z-index: 200;
   width: 40%;
@@ -88,11 +91,16 @@
   padding: 4px;
   text-align: justify;
   color: var(--blanco);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
 }
 
 /* paleta de colores */
 /* Creating a container for the palette. */
 .container-palett {
+  
   margin-bottom: 20px;
   font-size: 1.3em;
   width: 40%;
@@ -101,8 +109,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000,
-    1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000,    1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
   color: var(--blanco);
 }
 .container-palett h2 {
@@ -159,6 +166,7 @@
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   cursor: pointer;
+  padding: 8px;
 }
 .reset button{
   background: rgb(197, 73, 42);
@@ -166,6 +174,7 @@
   border:none;
   box-shadow: 0px 10px 10px rgb(167, 167, 167);
   cursor: pointer;
+  padding: 6px;
 }
 
 
@@ -173,7 +182,6 @@
 .list-tareas {
   width: 40%;
   height: auto;
-  
   background: rgb(56, 116, 247);
   border-radius: 24px;
   -webkit-border-radius: 24px;
@@ -259,4 +267,32 @@
 
 .nombre {
   width: 80px;
+}
+
+/* reloj */
+
+.cont-reloj {
+  width: 40%;
+  min-height: 180px;
+   display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center; 
+  margin-bottom: 20px;
+}
+.cont-reloj h2 {
+  text-shadow: 1px 0 0 rgb(255, 255, 255), -1px 0 0 rgb(255, 255, 255), 0 1px 0 rgb(255, 255, 255), 0 -1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255);
+  color: var(--negro);
+  letter-spacing: 2px;
+  font-size: 2em;
+  position: relative;
+}
+
+.reloj-contenedor {
+  text-align: center;
+  font-size:1.3em;
+  padding: 1em 0em;
+  line-height: 1.5em;
+  text-transform: capitalize;
 }
