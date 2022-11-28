@@ -47,7 +47,7 @@ const mostrarReloj= () => {
     let diasSemana = dias[fecha.getDay()];
     let dia = fecha.getDate();
     let mes = meses[fecha.getMonth()];
-    let fechaTexto = `${diasSemana}, ${dia} ${mes}`;
+    let fechaTexto = `${diasSemana}, ${dia} ${mes}.`;
     document.getElementById(`fecha`).innerHTML = fechaTexto;
 
 }

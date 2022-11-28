@@ -22,8 +22,8 @@ class Tarea {
 const tareas = [
   new Tarea("correr", "el dia de hoy"),
   new Tarea(
-    "comer",
-    "el dia de mañana y es una tarea desamsiado larga aparentemente y ocupa este espacion"
+    "ajustar esta tareas",
+    "por el momento no es responsive"
   ),
 ];
 

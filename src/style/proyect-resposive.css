@@ -1,0 +1,12 @@
+@media only screen and (max-width: 868px) {
+    .container-calc,.container-palett,.cont-contador,.list-tareas ,.cont-reloj  {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .nav .list {
+        display: block;
+        align-self: center;
+        width: 100%;
+      }
+}
