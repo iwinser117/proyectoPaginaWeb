@@ -8,13 +8,7 @@
     min-height: 40px;
     width: 100%;
     border-bottom:solid 1px ;
-    background-image: url(https://img.freepik.com/vector-gratis/fondo-memphis-semitono-azul-lineas-amarillas-formas-circulos_1017-31954.jpg?w=900&t=st=1669565660~exp=1669566260~hmac=184f8885228b5a2f223febcd31f5fd8b2b3dba5b93c542d29b94030d7bdc5649);
-    background-repeat: no-repeat;
-    position: static;
-    background-attachment: fixed;
-    background-size: cover;
-        
-    
+    background-color: var(--azulOscuro);
     margin-bottom: 24px;
 }
   
@@ -43,7 +37,7 @@
     justify-content: center;
   }
   nav li a:hover {
-    border-bottom: solid 1px;
+    border-bottom: solid 3px;
     cursor: pointer;
     transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -52,7 +46,7 @@
     -o-transition: 0.5s;
     color: var(--amarillo);
     position: relative;
-    top: -2px;
+    transform:translateY(-2px);    letter-spacing: 0.7px;
   }
   
   .nav li a {

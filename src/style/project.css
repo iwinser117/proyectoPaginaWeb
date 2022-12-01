@@ -7,18 +7,34 @@
   --dorado: #8c6000;
   --amarillo: #d9a025;
 }
-.container {
+.container-proyecto {
+  width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 /* The above code is creating a calculator with HTML, CSS and JavaScript. */
-.container-calc {
+section .cont-projtc {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: auto;
+  justify-content: center;
+}
+.sec-cal {
   margin-bottom: 20px;
-  font-size: 1.3em;
   width: 40%;
+  font-size: 1.3em;
+  min-height: 220px;
+  background: var(--azulClaro);
+}
+.sec-cal .container-calc {
+  font-size: 1.3em;
   display: flex;
   flex-direction: column;
   background: var(--azulClaro);
-  
 }
 
 .title-calculadora {
@@ -29,7 +45,7 @@
 }
 .for-calc .operando-a,
 .operando-b {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 8px;
@@ -38,14 +54,13 @@
   margin-top: 4px;
   border-radius: 4px;
   border: none;
-  height: 20px;
+  height: 24px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
 .reset-calc {
-  
   cursor: pointer;
   width: 30%;
   padding: 2px 0px;
@@ -84,32 +99,33 @@
 }
 #resultado {
   transition: all 1s ease-in-out;
-  background: var(--azulOscuro);
-  z-index: 200;
-  width: 40%;
+ /*  background: var(--azulOscuro); */
+  /*z-index: 200;
+  */width: 40%;
   margin: auto;
   padding: 4px;
   text-align: justify;
   color: var(--blanco);
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
 }
 
 /* paleta de colores */
 /* Creating a container for the palette. */
+.sec-palett {
+  width: 40%;
+  min-height:220px;
+}
 .container-palett {
-  
   margin-bottom: 20px;
   font-size: 1.3em;
-  width: 40%;
-  height: 180px;
+  width: 100%;
+  height: 100%;
   display: flex;
+  margin: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000,    1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000,
+    1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
   color: var(--blanco);
 }
 .container-palett h2 {
@@ -125,24 +141,25 @@
 /* Creating a container for the counter. */
 
 .cont-contador {
-  margin-bottom: 20px;
+ /*  margin-bottom: 20px; */
   font-size: 1.3em;
   width: 40%;
-  height: 180px;
+  min-height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: rgb(25, 224, 58);
 }
+
 .cont-title {
   width: 100%;
   height: 50%;
-  /* background: rgb(38, 82, 150); */
+  /* padding: 1em 0; */
   display: flex;
 }
 .contador-int h2 {
-  font-size:3em;
+  font-size: 3em;
   margin: auto;
   color: rgb(5, 30, 145);
 }
@@ -151,13 +168,14 @@
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
+  /* height: 120px; */
   justify-content: space-evenly;
 }
 .btn-success {
   display: flex;
   height: 20px;
   border: none;
-  align-items:center;
+  align-items: center;
   border-radius: 6px;
   background: rgb(98, 231, 9);
   box-shadow: 0px 10px 10px black;
@@ -168,15 +186,18 @@
   cursor: pointer;
   padding: 8px;
 }
-.reset button{
+.reset button {
   background: rgb(197, 73, 42);
   border-radius: 6px;
-  border:none;
+  border: none;
   box-shadow: 0px 10px 10px rgb(167, 167, 167);
   cursor: pointer;
   padding: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
-
 
 /* lista de tareas */
 .list-tareas {
@@ -188,7 +209,6 @@
   -moz-border-radius: 24px;
   -ms-border-radius: 24px;
   -o-border-radius: 24px;
-
 }
 
 .title {
@@ -242,7 +262,7 @@
 .elemento li {
   width: 100%;
   margin-bottom: 6px;
-  color:black;
+  color: black;
   display: flex;
   flex-direction: row;
 }
@@ -262,7 +282,7 @@
 .icon {
   display: flex;
   width: 60px;
-  color: black;;
+  color: black;
 }
 
 .nombre {
@@ -273,16 +293,18 @@
 
 .cont-reloj {
   width: 40%;
-  min-height: 180px;
-   display:flex;
+  min-height: 220px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center; 
+  align-items: center;
   margin-bottom: 20px;
 }
 .cont-reloj h2 {
-  text-shadow: 1px 0 0 rgb(255, 255, 255), -1px 0 0 rgb(255, 255, 255), 0 1px 0 rgb(255, 255, 255), 0 -1px 0 rgb(255, 255, 255),
-    1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255);
+  text-shadow: 1px 0 0 rgb(255, 255, 255), -1px 0 0 rgb(255, 255, 255),
+    0 1px 0 rgb(255, 255, 255), 0 -1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255);
   color: var(--negro);
   letter-spacing: 2px;
   font-size: 2em;
@@ -291,7 +313,7 @@
 
 .reloj-contenedor {
   text-align: center;
-  font-size:1.3em;
+  font-size: 1.3em;
   padding: 1em 0em;
   line-height: 1.5em;
   text-transform: capitalize;

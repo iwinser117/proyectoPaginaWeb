@@ -19,13 +19,14 @@ class Tarea {
   }
 }
 
-const tareas = [
+/* const tareas = [
   new Tarea("correr", "el dia de hoy"),
   new Tarea(
     "ajustar esta tareas",
     "por el momento no es responsive"
   ),
-];
+]; */
+const tareas = [];
 
 let icon = document.createElement('div');
 
