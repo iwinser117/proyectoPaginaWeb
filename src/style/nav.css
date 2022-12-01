@@ -50,7 +50,7 @@ nav li a:hover {
   color: var(--amarillo);
   position: relative;
   letter-spacing: 2px;
-  -webkit-text-stroke: 1px black;
+  
   -webkit-transform:translateY(-2px);
   -moz-transform:translateY(-2px);
   -ms-transform:translateY(-2px);
