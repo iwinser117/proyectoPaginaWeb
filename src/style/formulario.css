@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     padding: 2em 0em;
-     background-image:url(https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg);
+     background-image:url(https://cdn.pixabay.com/photo/2022/09/17/20/01/mail-7461731_960_720.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -20,10 +20,10 @@
 }
 .form h2 {
     margin: 1em 0em;
-    color:var(--blanco);
+    color:var(--negro);
 }
 .form label {
-    color:var(--blanco);
+    color:var(--negro);
     font-weight: 500;
 	margin-bottom: 4px;
 }

@@ -38,7 +38,7 @@ nav li {
   
 }
 nav li a:hover {
-  font-size: 1.8em;
+  /* font-size: 1.8em; */
   border-bottom: solid 3px;
   cursor: pointer ;
   transform:translateY(-2px);
@@ -49,7 +49,7 @@ nav li a:hover {
   -o-transition: 0.4s;
   color: var(--amarillo);
   position: relative;
-  letter-spacing: 2px;
+  letter-spacing: 0.7px;
   
   -webkit-transform:translateY(-2px);
   -moz-transform:translateY(-2px);

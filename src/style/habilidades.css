@@ -9,12 +9,21 @@
 
 
 .skill h2 {
-    font-size: 2em;
+    font-size: 2.3em;
+    font-weight:900;
     padding: 10px 0px;
+    font-family:'Cormorant Garamond', serif;
+}
+.skill .fa-display {
+    color:var(--amarillo);
+}
+.skill .fa-server {
+    color:var(--azulOscuro);
 }
 .skill h3 {
-    font-size: 1.6em;
-    padding: 10px 0px;
+    font-size: 1.8em;
+  font-family:'Cormorant Garamond', serif;
+  margin-bottom: 0.5em;
 }
 .skill p {
     text-align: justify;

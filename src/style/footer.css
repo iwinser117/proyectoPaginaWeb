@@ -18,6 +18,16 @@ footer {
   display: flex;
   flex-direction: column;
 }
+.info-footer h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4em;
+}
+.fa-whatsapp, .fa-envelope {
+  margin: auto;
+  color:var(--negro);
+  width: 30px ;
+  font-size: 18px;
+}
 .info-footer .con-foo {
   height: 20px;
 }
@@ -82,14 +92,7 @@ footer {
   color: rgb(10, 102, 194);
   transition: 0.5s;
 }
-.facebook a:hover {
-  color: rgb(24, 119, 242);
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-}
+
 .descarga a:hover {
   color: red;
   transition: 0.5s;

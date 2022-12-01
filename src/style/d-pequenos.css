@@ -6,6 +6,7 @@
     display: flexbox;
     flex-direction: column;
     margin: auto;
+    
   }
   #list {
     transition: 1s;
@@ -105,6 +106,9 @@
     margin: auto;
     min-height: auto;
     padding: 2em 0em;
+  }
+  .centrArt p {
+    font-size: 18px;
   }
   .certificados {
     padding-top: 1em;
