@@ -100,9 +100,7 @@ footer {
   background: white;
 }
 .datos-footer {
-  background-image: url(https://img.freepik.com/foto-gratis/fondo-luces-degradadas_23-2149305014.jpg?w=360&t=st=1669566518~exp=1669567118~hmac=23989595bfb39624289ff317c172784ef32312b3b57de3b316d6a35398c20249);
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: var(--azulOscuro);
   text-align: center;
   padding-top: 2px;
   height: 40px;
@@ -110,4 +108,6 @@ footer {
   align-items: center;
   justify-content: center;
   padding-bottom: 8px;
+  color:var(--blanco);
+  font-size:1.2em;
 }

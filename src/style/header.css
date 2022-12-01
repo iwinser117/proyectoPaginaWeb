@@ -1,10 +1,17 @@
 .header {
-  height: 100vh;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:
+    url(https://img.freepik.com/free-vector/paper-style-white-monochrome-background_52683-66443.jpg?w=740&t=st=1669866814~exp=1669867414~hmac=2bd460d8fce34e90c130a013cacb1306dfcd2d2cfd1573e7a6c597c6ae2b101b) ;
+    background:rotate(90);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
 }
 
 .title {
@@ -17,9 +24,6 @@
   align-items: center;
   justify-content: space-evenly;
   
-}
-.title-principal {
-  background: #ffffff;
 }
 
 .title h1 {
