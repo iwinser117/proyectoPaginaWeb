@@ -115,7 +115,7 @@ section .cont-projtc {
   min-height:220px;
 }
 .container-palett {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   font-size: 1.3em;
   width: 100%;
   height: 100%;

@@ -9,4 +9,14 @@
         align-self: center;
         width: 100%;
       }
+    .cont-projtc, .sec-palett, .sec-cal {
+        width: 90%;
+        margin: auto;
+        height: auto;
+    }  
+    .container-palett {
+        width: auto;
+        height: 220px;
+    }
+
 }
