@@ -69,6 +69,7 @@ function dividir() {
   }
 }
 
+
 function resetForm() {
   operandoA.value = "";
   operandoB.value = "";

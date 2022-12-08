@@ -1,22 +1,98 @@
 @media only screen and (max-width: 868px) {
-    .container-calc,.container-palett,.cont-contador,.list-tareas ,.cont-reloj  {
-        width: 90%;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-    .nav .list {
-        display: block;
-        align-self: center;
-        width: 100%;
-      }
-    .cont-projtc, .sec-palett, .sec-cal {
-        width: 90%;
-        margin: auto;
-        height: auto;
-    }  
-    .container-palett {
-        width: auto;
-        height: 220px;
-    }
+  .container-calc,
+  .container-palett,
+  .cont-contador,
+  .list-tareas,
+  .cont-reloj {
+    width: 96%;
+    margin: auto;
+  /*   margin-bottom: 20px; */
+  }
+  section .cont-projtc {
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: auto;
+    justify-content: center;
+  }
+  .descri-project {
+    padding: 0em;
+    margin: auto;
+    width: 100%;
+  }
+  .nav .list {
+    display: block;
+    align-self: center;
+    width: 100%;
+  }
+  .cont-projtc,
+  .sec-palett,
+  .sec-cal {
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
+  .container-palett {
+    width: 100%;
+    height: 220px;
+  }
 
+  /* ahora los div internos */
+  .sec-cal {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .sec-palett {
+    width: 100%;
+    flex-direction: column;
+  }
+  .container-palett {
+    width: 100%;
+  }
+  .cont-contador-p{
+    width: 100%;
+    flex-direction: column;
+   }
+   .cont-lista-p{
+    width: 100%;
+    flex-direction: column;
+  }
+  .cont-reloj-p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height:220px;
+  }
+
+
+
+footer {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+  .footer {
+    padding: 2em 0em;
+    height: auto;
+    width: 90%;
+    display: block;
+    flex-direction: column;
+  }
+  .idea {
+    margin-top: 2em;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+    font-family: "Comforter Brush", cursive;
+  }
+  .info-footer-image {
+    text-align: center;
+}
+.datos-footer {
+  text-align: center;
+}
 }
