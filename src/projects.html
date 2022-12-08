@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="./style/proj-nav.css" />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/proyect-resposive.css" />
-    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/d-pequenos.css">
+    <link rel="stylesheet" href="./style/form-project.css">
+  
 
     <!-- tipografia -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -216,6 +218,12 @@
         </div>
       </section>
 
+      <article class="article-mas">
+        <p>
+          Gracias por llegar hasta aqui, si deseas ver algo de codigo y la forma en que en resuelvo ejercicios respecto a estructuras de datos  te invito a revisar mis repositorios en GitHub, donde ademas encontraras proyecto realizado con el Stack MERN el cual esta proximo a produccion.
+        </p>
+      </article>
+
       <footer>
 
         <div class="footer">
@@ -271,6 +279,36 @@
             <p>&copy;2022 Iwinser Sanchez, Sitio web  alojado en Netlify</p>
         </div>
     </footer>
+
+
+
+    <section class="contac-form" id="cont-form">
+      <div class="cont-contact">
+        <i class="fa-regular fa-circle-xmark"></i>
+          <div class="int-form">
+              <h2>Contactame</h2>
+              <!-- action="https://formsubmit.co/iwinser.sanchez47@gmail.com" -->
+              <form class="int-form" name="formulario-portafolio" netlify>
+                  <label for="nombre">Nombre:</label>
+                  <input name="nombre" type="text" id="nombre" required placeholder="Escribe tu nombre" />
+
+                  <label for="email">Email:</label>
+                  <input type="text" id="email" name="email" required placeholder="example@example.com" />
+
+                  <label for="asunto">Asunto:</label>
+                  <input type="text" id="asunto" name="asunto" placeholder="ejemplo: Colaboracion" />
+                  <br>
+                  <label for="mensaje">Mensaje:</label>
+                  <!-- cols="30" rows="10" -->
+                  <textarea name="mensaje" id="mensaje" placeholder="Dejame tu mensaje aqui"></textarea>
+
+                  <button class="form-btn" type="submit">enviar mensaje</button>
+
+                 
+              </form>
+          </div>
+      </div>
+  </section>
     </div>
 
     <script src="./calculadora/js/app.js"></script>

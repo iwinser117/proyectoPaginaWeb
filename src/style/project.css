@@ -144,6 +144,7 @@ font-family: 'Source Sans Pro', sans-serif;   TEXT TEXTO
   min-height:220px;
 }
 .container-palett {
+  height: 100%;
   font-size: 1.3em;
   width: 100%;
   display: flex;
@@ -357,4 +358,136 @@ font-family: 'Source Sans Pro', sans-serif;   TEXT TEXTO
   padding: 1em 0em;
   line-height: 1.5em;
   text-transform: capitalize;
+}
+
+
+
+/* footer */
+
+
+/* estilos del footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  height: 150px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer .info-footer {
+  display: flex;
+  flex-direction: column;
+}
+.info-footer h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4em;
+}
+.fa-whatsapp, .fa-envelope {
+  margin: auto;
+  color:var(--negro);
+  width: 30px ;
+  font-size: 18px;
+}
+.info-footer .con-foo {
+  height: 20px;
+}
+.info-footer .infoo {
+  width: auto;
+}
+.info-footer a {
+  text-decoration: none;
+  color: black;
+}
+
+#name-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.idea {
+  font-size: 2em;
+  font-weight: 100;
+  opacity: 0.8;
+  font-family: "Comforter Brush", cursive;
+}
+.info-footer .enlaces {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+}
+.int-footer {
+  text-align: right;
+}
+.footer .gmail a:hover {
+  color: rgba(0, 20, 73, 0.973);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.whatsapp a:hover {
+  color: rgb(0, 48, 0);
+  transition: 0.5s;
+}
+#redes {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+#intfoo {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.github a:hover {
+  color: rgb(83, 0, 83);
+  transition: 0.5s;
+}
+.linkedin a:hover {
+  color: rgb(10, 102, 194);
+  transition: 0.5s;
+}
+
+.descarga a:hover {
+  color: red;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  background: white;
+}
+.datos-footer {
+  background-color: var(--azulOscuro);
+  text-align: center;
+  padding-top: 2px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8px;
+  color:var(--blanco);
+  font-size:1.2em;
+}
+.article-mas {
+  padding: 1em;
+  margin: auto;
+  width: 90%;
+}
+.article-mas p{
+  font-family:'Source Sans Pro', sans-serif; 
+  font-size: 20px;
+  text-align: justify;
 }

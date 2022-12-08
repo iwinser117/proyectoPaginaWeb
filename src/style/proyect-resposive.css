@@ -32,7 +32,6 @@
   .sec-cal {
     width: 100%;
     margin: auto;
-    height: auto;
   }
   .container-palett {
     width: 100%;
@@ -68,13 +67,6 @@
   }
 
 
-
-footer {
-    width: 98%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-}
   .footer {
     padding: 2em 0em;
     height: auto;
