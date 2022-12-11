@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="./style/proj-nav.css" />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/proyect-resposive.css" />
-    <link rel="stylesheet" href="./style/d-pequenos.css">
-    <link rel="stylesheet" href="./style/form-project.css">
-  
+    <link rel="stylesheet" href="./style/d-pequenos.css" />
+    <link rel="stylesheet" href="./style/form-project.css" />
 
     <!-- tipografia -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,7 +37,11 @@
             <div class="li">
               <ul class="nav-list">
                 <li><a href="./index.html" class="nav-link">Inicio</a></li>
-                <li><a href="#" class="nav-link">Contactame</a></li>
+                <li>
+                  <a href="#" class="nav-link" onclick="mostrarFormulario()"
+                    >Contactame</a
+                  >
+                </li>
                 <li onclick="menuOcultar()">
                   <a><i class="fa-solid fa-caret-up"></i></a>
                 </li>
@@ -105,7 +108,10 @@
             <div class="descri-project">
               <h3>reloj</h3>
               <p>
-                Es un Div en el cual, en una variable se obtiene la fecha actual y se muestra a traves de una funcion que se ejecuta cada 1000 milisegundos. ademas se agrega una funcionalidad de cambio de color de fondo usando un setTimeout.
+                Es un Div en el cual, en una variable se obtiene la fecha actual
+                y se muestra a traves de una funcion que se ejecuta cada 1000
+                milisegundos. ademas se agrega una funcionalidad de cambio de
+                color de fondo usando un setTimeout.
               </p>
             </div>
             <div class="cont-reloj" id="contenedor">
@@ -122,7 +128,11 @@
             <div class="descri-project">
               <h3>calculadora basica</h3>
               <p>
-                Ejecutamos lo obtenido con los datos de los input del formulario y operamos segun corresponda con las funciones asignada a los botones de la parte inferior; se pueden realizar operaciones con numeros enteros y decimales los cuales son mostrados con 2 o 1 decimal.
+                Ejecutamos lo obtenido con los datos de los input del formulario
+                y operamos segun corresponda con las funciones asignada a los
+                botones de la parte inferior; se pueden realizar operaciones con
+                numeros enteros y decimales los cuales son mostrados con 2 o 1
+                decimal.
               </p>
             </div>
             <div class="container-calc">
@@ -175,7 +185,10 @@
             <div class="descri-project">
               <h3>lista de tareas</h3>
               <p>
-                Se esta implementando esta Interfaz la cual debe mostrar la tarea creada y con el checkbox y poder cambiar el estado a realizado. se valida que los input tengan datos para poder crear la tarea.
+                Se esta implementando esta Interfaz la cual debe mostrar la
+                tarea creada y con el checkbox y poder cambiar el estado a
+                realizado. se valida que los input tengan datos para poder crear
+                la tarea.
               </p>
             </div>
             <div class="int-cont list-tareas">
@@ -220,95 +233,135 @@
 
       <article class="article-mas">
         <p>
-          Gracias por llegar hasta aqui, si deseas ver algo de codigo y la forma en que en resuelvo ejercicios respecto a estructuras de datos  te invito a revisar mis repositorios en GitHub, donde ademas encontraras proyecto realizado con el Stack MERN el cual esta proximo a produccion.
+          Gracias por llegar hasta aqui, si deseas ver algo de codigo y la forma
+          en que en resuelvo ejercicios respecto a estructuras de datos te
+          invito a revisar mis repositorios en GitHub, donde ademas encontraras
+          proyecto realizado con el Stack MERN el cual esta proximo a
+          produccion.
+        </p>
+        <p>
         </p>
       </article>
 
       <footer>
-
         <div class="footer">
-            <div class="info-footer">
-                <h3 class="sub-footer">Trabajemos juntos</h3>
+          <div class="info-footer">
+            <h3 class="sub-footer">Trabajemos juntos</h3>
 
-                <div class="enlaces gmail">
-                    <a href="mailto:iwinser.sanchez47@gmail.com"><i class="fa-regular fa-envelope"></i>iwinser.sanchez47@gmail.com</a>
-                </div>
-
-                <div class="enlaces whatsapp ">
-                    <a target="_blank" rel="noopener noreferrer"
-                        href="https://api.whatsapp.com/send?phone=3197954808&text=Hola,%20cordial%20saludo.%20Gracias%20por%20contactarme%20en%20que%20puedo%20ayudarte?%20"><i class="fa-brands fa-whatsapp"></i>+ 57 3197954808</a>
-                </div>
+            <div class="enlaces gmail">
+              <a href="mailto:iwinser.sanchez47@gmail.com"
+                ><i class="fa-regular fa-envelope"></i
+                >iwinser.sanchez47@gmail.com</a
+              >
             </div>
 
-
-
-            <div>
-                <p class="idea"><i class="el el-italic">"Making big ideas"</i></p>
+            <div class="enlaces whatsapp">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://api.whatsapp.com/send?phone=3197954808&text=Hola,%20cordial%20saludo.%20Gracias%20por%20contactarme%20en%20que%20puedo%20ayudarte?%20"
+                ><i class="fa-brands fa-whatsapp"></i>+ 57 3197954808</a
+              >
             </div>
-            <div class="info-footer-image" >
+          </div>
 
-                <img src="./images/ok.svg" width="130px" alt="">
-            </div>
-
+          <div>
+            <p class="idea"><i class="el el-italic">"Making big ideas"</i></p>
+          </div>
+          <div class="info-footer-image">
+            <img src="./images/ok.svg" width="130px" alt="" />
+          </div>
         </div>
 
-        <div id="redes" class="info-footer ">
-            
-            <hr size="1px" color="black" width="50%" align="center" />
-            <div class="infoo github" id="intfoo">
-                <a href="https://github.com/iwinser117" target="_blank" rel="noopener noreferrer"><i
-                        class="fa-brands fa-github fa-2xl"></i></a>
-            </div>
+        <div id="redes" class="info-footer">
+          <hr size="1px" color="black" width="50%" align="center" />
+          <div class="infoo github" id="intfoo">
+            <a
+              href="https://github.com/iwinser117"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-github fa-2xl"></i
+            ></a>
+          </div>
 
-            <div class="infoo linkedin" id="intfoo">
-                <a href="https://www.linkedin.com/in/iwinser-aljadys-sanchez-0a62a0234/?originalSubdomain=co"
-                    target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-            </div>
+          <div class="infoo linkedin" id="intfoo">
+            <a
+              href="https://www.linkedin.com/in/iwinser-aljadys-sanchez-0a62a0234/?originalSubdomain=co"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-linkedin fa-2xl"></i
+            ></a>
+          </div>
 
-         
-
-            <div class="infoo descarga" id="intfoo">
-                <a download="CurriculumDeveloperIwinserSanchez"
-                    href="./images/IwinserSanchez.pdf"><i
-                        class="fa-solid fa-file-pdf fa-2xl"></i></a>
-            </div>
-            <hr size="1px" color="black" width="50%" align="center" />
-            
+          <div class="infoo descarga" id="intfoo">
+            <a
+              download="CurriculumDeveloperIwinserSanchez"
+              href="./images/IwinserSanchez.pdf"
+              ><i class="fa-solid fa-file-pdf fa-2xl"></i
+            ></a>
+          </div>
+          <hr size="1px" color="black" width="50%" align="center" />
         </div>
         <div class="datos-footer">
-            <p>&copy;2022 Iwinser Sanchez, Sitio web  alojado en Netlify</p>
+          <p>&copy;2022 Iwinser Sanchez, Sitio web alojado en Netlify</p>
         </div>
-    </footer>
+      </footer>
 
-
-
-    <section class="contac-form" id="cont-form">
-      <div class="cont-contact">
-        <i class="fa-regular fa-circle-xmark"></i>
+      <section class="contac-form" id="cont-form">
+        <div class="cont-contact">
+          <i
+            class="fa-regular fa-circle-xmark"
+            onclick="ocultarformulario()"
+          ></i>
           <div class="int-form">
-              <h2>Contactame</h2>
-              <!-- action="https://formsubmit.co/iwinser.sanchez47@gmail.com" -->
-              <form class="int-form" name="formulario-portafolio" netlify>
-                  <label for="nombre">Nombre:</label>
-                  <input name="nombre" type="text" id="nombre" required placeholder="Escribe tu nombre" />
+            <h2>Contactame</h2>
+            <!-- action="https://formsubmit.co/iwinser.sanchez47@gmail.com" -->
+            <form class="int-form-int" name="formulario-portafolio" netlify>
+              <label for="nombre">Nombre:</label>
+              <input
+                name="nombre"
+                type="text"
+                id="nombre"
+                required
+                placeholder="Escribe tu nombre"
+              />
 
-                  <label for="email">Email:</label>
-                  <input type="text" id="email" name="email" required placeholder="example@example.com" />
+              <label for="email">Email:</label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                required
+                placeholder="example@example.com"
+              />
 
-                  <label for="asunto">Asunto:</label>
-                  <input type="text" id="asunto" name="asunto" placeholder="ejemplo: Colaboracion" />
-                  <br>
-                  <label for="mensaje">Mensaje:</label>
-                  <!-- cols="30" rows="10" -->
-                  <textarea name="mensaje" id="mensaje" placeholder="Dejame tu mensaje aqui"></textarea>
+              <label for="asunto">Asunto:</label>
+              <input
+                type="text"
+                id="asunto"
+                name="asunto"
+                placeholder="ejemplo: Colaboracion"
+              />
+              <br />
+              <label for="mensaje">Mensaje:</label>
+              <!-- cols="30" rows="10" -->
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                placeholder="Dejame tu mensaje aqui"
+              ></textarea>
 
-                  <button class="form-btn" type="submit">enviar mensaje</button>
-
-                 
-              </form>
+              <button
+                class="form-btn"
+                type="submit"
+                
+              >
+                enviar mensaje
+              </button>
+            </form>
           </div>
-      </div>
-  </section>
+        </div>
+      </section>
     </div>
 
     <script src="./calculadora/js/app.js"></script>

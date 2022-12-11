@@ -18,14 +18,24 @@ function ver() {
     document.getElementById('list').style.display = "block" ;
     document.getElementsByClassName('logoNav').style.display="flex";
     document.getElementsByClassName('logoNav').style.display = "none";
-
 }
+function enviar(e) {
+    console.log(e);
+    e.preventDefault();
+    alert("Datos enviados");
+    e.target.reset();
+  }
 function ocultar() {
     document.getElementById('list').style.display = "none"
     document.getElementsByClassName('logoClosed').style.display = "none";
     document.getElementsByClassName('logoNav').style.display = "flex";
 }
-
+function ocultarformulario() {
+    document.getElementById('cont-form').style.display = "none";
+}
+function mostrarFormulario() {
+    document.getElementById('cont-form').style.display = "block";
+}
 
 
 
@@ -57,6 +67,5 @@ function menuMostrar (){
 function menuOcultar (){
     document.getElementById('list').style.display = 'none';
     document.getElementById('btn-peque').style.display = 'flex';
-    
-    
 }
+

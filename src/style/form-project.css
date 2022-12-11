@@ -1,17 +1,115 @@
 .contac-form {
-    z-index: 300;
-    border:solid 1px;
-    margin: auto;
-    position:fixed;
-    top: 10%;
-    left: 20%;
-    right:20%;
-    display: none;
+  z-index: 300;
+  margin: auto;
+  position: fixed;
+  top: 10%;
+  left: 30%;
+  right: 30%;
+  display: none;
 }
 .int-form {
-    font-size: 22px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: var(--azulClaromas);
+  padding: 1em 0em;
+  box-shadow: 1px 4px 12px 3px #6e6e6e;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  opacity: 0.91;
+  background: var(--blanco);
+  border: none;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+.int-form-int {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.int-form-int input {
+  min-width: 60%;
+  max-width: 70%;
+  padding: 6px;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 1px 1px 5px 1px #6e6e6e;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+.int-form-int textarea {
+    min-width: 60%;
+    max-width: 80%;
+    min-height:80px ;
+    padding: 6px;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 1px 2px 8px 3px #6e6e6e;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  /* font-family: cursive; */
+}
+.int-form-int textarea:focus {
+    outline:1px solid var(--azulOscuro);
+  }
+.int-form-int input:focus {
+  outline:1px solid var(--azulOscuro);
+}
+.int-form-int .form-btn {
+    min-width: 20%;
+    max-width: 30%;
+    padding: 6px;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: var(--azulClaro);
+    color:var(--negro);
+    font-weight: 600;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+}
+.contac-form .fa-circle-xmark {
+    font-size: 38px;
+    z-index: 400;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    font-weight: bold;
+    color:var(--azulClaro);
+    border-radius:50%;
+    background: rgb(161, 4, 4);
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    cursor:pointer;
+}
+
+@media only screen and (max-width: 868px) {
+    .contac-form {
+        z-index: 300;
+        margin: auto;
+        position: fixed;
+        top: 10%;
+        left: 1%;
+        right: 1%;
+      }
+    .int-form-int {
+        width: 80%;
+        
+      }
 }
