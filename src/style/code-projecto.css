@@ -1,0 +1,51 @@
+.article-mas {
+  display: flex;
+  flex-direction: column;
+}
+.code {
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+
+.code-pro {
+  background: #000;
+  color: var(--amarillo);
+  width: auto;
+  margin: auto;
+  display: block;
+
+}
+.article-mas a {
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+}
+.article-mas a:hover {
+    margin: auto;
+    color: var(--azulOscuro);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 868px) {
+
+    .code-pro {
+        background: #000;
+        color: var(--amarillo);
+        width: auto;
+        margin: auto;
+        display: block;
+        overflow: hidden;
+        overflow-x: scroll;
+      }
+  .code {
+    width: 100%;
+
+    flex-wrap: wrap;
+    /* word-wrap: break-word; */
+    overflow: hidden;
+    overflow-x: scroll;
+    align-items: center;
+  }
+}
