@@ -90,3 +90,18 @@
   -ms-border-radius:50%;
   -o-border-radius:50%;
 }
+
+@media only screen and (max-width: 868px) {
+  .container-palett > div{
+  border:none;
+  border-bottom:0;
+  border-radius:0;
+  width: 30%;
+  -webkit-border-radius:0;
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+}
+}
