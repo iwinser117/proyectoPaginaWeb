@@ -327,12 +327,14 @@ font-family: 'Source Sans Pro', sans-serif;   TEXT TEXTO
 
 /* reloj */
 .cont-reloj-p {
+  
   display: flex;
   flex-direction: row;
   width: 90%;
   min-height:220px;
 }
 .cont-reloj {
+  border-radius:80%;
   width: 100%;
   min-height: 220px;
   display: flex;
@@ -340,6 +342,10 @@ font-family: 'Source Sans Pro', sans-serif;   TEXT TEXTO
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  -webkit-border-radius:80%;
+  -moz-border-radius:80%;
+  -ms-border-radius:80%;
+  -o-border-radius:80%;
 }
 .cont-reloj h2 {
   text-shadow: 1px 0 0 rgb(255, 255, 255), -1px 0 0 rgb(255, 255, 255),
@@ -350,14 +356,17 @@ font-family: 'Source Sans Pro', sans-serif;   TEXT TEXTO
   letter-spacing: 2px;
   font-size: 2em;
   position: relative;
+  text-align: center;
+  display: none;
 }
 
 .reloj-contenedor {
   text-align: center;
-  font-size: 1.3em;
+  font-size: 2.2em;
   padding: 1em 0em;
   line-height: 1.5em;
   text-transform: capitalize;
+  font-family: 'Kameron', serif;
 }
 
 
