@@ -4,9 +4,12 @@
   .cont-contador,
   .list-tareas,
   .cont-reloj {
-    width: 96%;
+    width: 94%;
     margin: auto;
   /*   margin-bottom: 20px; */
+  }
+  section {
+    margin-top: 50px;
   }
   section .cont-projtc {
     width: 96%;
