@@ -36,7 +36,9 @@ font-family: 'Source Sans Pro', sans-serif;   TEXT TEXTO
     flex-direction: column;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 html {
     overflow-y: scroll;

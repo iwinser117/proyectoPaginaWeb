@@ -89,9 +89,9 @@
     right: -10px;
     top: -10px;
     font-weight: bold;
-    color:var(--azulClaro);
+    color:var(--blanco);
     border-radius:50%;
-    background: rgb(161, 4, 4);
+    background: rgb(0, 0, 0);
     -webkit-border-radius:50%;
     -moz-border-radius:50%;
     -ms-border-radius:50%;
