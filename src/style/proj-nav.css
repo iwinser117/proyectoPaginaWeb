@@ -1,5 +1,7 @@
 /* estilos al nav */
-
+.li-ocul {
+    display: none;
+  }
 .nav {
     display: flex;
     flex-direction: row;

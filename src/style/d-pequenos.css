@@ -1,11 +1,14 @@
 /* aplicando cambios al nav desde 768 hasta 576 */
 
-@media only screen and (max-width: 868px) {
+@media only screen and (max-width: 768px) {
   .container {
     width: 100%;
     display: flexbox;
     flex-direction: column;
     margin: auto;
+  }
+  .li-ocul {
+    display: block;
   }
   #list {
     transition: 1s;
@@ -15,6 +18,7 @@
     -ms-transition: 1s;
     -o-transition: 1s;
   }
+  
 
   .nav {
     width: 100%;

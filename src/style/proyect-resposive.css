@@ -9,23 +9,17 @@
     margin: auto;
     /*   margin-bottom: 20px; */
   }
-  section {
-    margin-top: 50px;
-  }
   section .cont-projtc {
-    width: 96%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 100px;
-    margin: auto;
-    justify-content: center;
-  }
-  .descri-project {
-    padding: 0em;
-    margin: auto;
-    width: 100%;
-  }
+  width: 92%;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  grid-gap: 50px;
+  grid-template-columns: 1fr 1fr ;
+  margin-top: 10px;
+}
+ 
+ 
 /*   #list {
     transition: 1s;
     display: none;
@@ -39,7 +33,7 @@
   .nav .list {
     display: block;
     align-self: center;
-    width: 100%;
+    width: 70%;
   }
   .cont-projtc,
   .sec-palett,
@@ -53,32 +47,7 @@
   }
 
   /* ahora los div internos */
-  .sec-cal {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .sec-palett {
-    width: 100%;
-    flex-direction: column;
-  }
-  .container-palett {
-    width: 100%;
-  }
-  .cont-contador-p {
-    width: 100%;
-    flex-direction: column;
-  }
-  .cont-lista-p {
-    width: 100%;
-    flex-direction: column;
-  }
-  .cont-reloj-p {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-height: 220px;
-  }
+ 
 
   .footer {
     padding: 2em 0em;

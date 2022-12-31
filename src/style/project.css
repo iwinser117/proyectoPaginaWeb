@@ -110,6 +110,7 @@ section .cont-projtc {
 }
 .descri-project {
   height: 50%;
+  z-index: 2;
 }
 .descri-project h3 {
   text-align: center;
@@ -331,13 +332,13 @@ font-family: 'Source Sans Pro', sans-serif;   TEXT TEXTO
   height: 100%;
 }
 .cont-reloj {
-  border-radius: 80%;
   width: 80%;
   height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 80%;
   -webkit-border-radius: 80%;
   -moz-border-radius: 80%;
   -ms-border-radius: 80%;
