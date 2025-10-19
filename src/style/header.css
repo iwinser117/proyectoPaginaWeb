@@ -1,37 +1,36 @@
 .header {
-    height: 100vh;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-image:
-    url(https://img.freepik.com/vector-gratis/banner-presentacion-empresarial-forma-geometrica-azul_1017-32330.jpg?w=826&t=st=1669911859~exp=1669912459~hmac=38cfe854aa381c3e362e61ace1e2c86bb8d376c5bb1c10c92eddd6b37f9a0112) ;
-    background:rotate(90);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
+  min-height: 52vh;
+  margin: 12px 0;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(135deg, rgba(37,100,255,0.04), rgba(37,75,221,0.02));
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  box-shadow: 0 6px 18px rgba(14,30,70,0.05);
 }
 
 .title {
   font-family: "Source Sans Pro", sans-serif;
-  min-height: 480px;
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: space-evenly;
-  
+  text-align: left;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
 }
 
 .title h1 {
   text-transform: capitalize;
-  font-size: 3.4em;
-  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.05;
+  font-weight: 700;
+  color: #0f172a;
 }
 .title-principal h3 {
-    font-size: 2em;
+    font-size: 1.25rem;
   background: rgb(126, 82, 82);
   background: linear-gradient(
     0deg,
@@ -49,28 +48,31 @@
   
 }
 .title-principal h2 {
-    letter-spacing: 3px;
-    font-size: 2em;
-    -webkit-text-stroke: 1px black;
-    font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--azulOscuro);
 }
 
 .logotitle {
   width: 30%;
   display: flex;
-  min-height: 480px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 
 .perfil {
-  width: 200px;
-  
-  border-radius: 45%;
-  -webkit-border-radius: 45%;
-  -moz-border-radius: 45%;
-  -ms-border-radius: 45%;
-  -o-border-radius: 45%;
-  
+  width: 180px;
+  max-width: 36%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 8px 18px rgba(16,24,40,0.10);
+}
+
+@media (max-width: 900px){
+  .header{ padding: 12px; flex-direction: column; gap: 12px }
+  .title{ width: 100%; align-items: center; text-align: center }
+  .logotitle{ width: 100% }
+  .perfil{ width: 120px }
 }
